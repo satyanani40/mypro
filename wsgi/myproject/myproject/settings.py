@@ -27,12 +27,6 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 
-AUTHENTICATION_BACKENDS = (
-        'mongoengine.django.auth.MongoEngineBackend',
-)
-LOGIN_URL = '/login'
-LOGIN_REDIRECT_URL = '/login'
-
 # Application definition
 
 INSTALLED_APPS = (
@@ -42,34 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'mongoengine.django.mongo_auth',
-    'rest_framework',
-    'rest_framework_mongoengine',
 )
-
-
-TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'sample/static/app/views/'),
-    os.path.join(BASE_DIR, 'sample/static/app/'),
-)
-
-
-STATIC_ROOT= os.path.join(BASE_DIR,'static_media/')
-
-STATIC_URL = '/static/'
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR,"sample/static/"),
-)
-
-
-MONGOENGINE_USER_DOCUMENT = 'mongoengine.django.auth.User'
-AUTH_USER_MODEL = 'mongo_auth.MongoUser'
-
-
-
-SESSION_ENGINE = 'mongoengine.django.sessions'
-SESSION_SERIALIZER = 'mongoengine.django.sessions.BSONSerializer'
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -90,17 +57,13 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
-DBNAME = 'python'
-
-# Database
-# https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.dummy'
+        'ENGINE': 'django.db.backends.sqlite3',
+        # GETTING-STARTED: change 'db.sqlite3' to your sqlite3 database:
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
@@ -119,17 +82,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
-
-
-
 STATIC_URL = '/static/'
-
-EMAIL_HOST = 'smtp.gmail.com'
-
-EMAIL_HOST_USER = 'nanisatya282828@gmail.com'
-
-EMAIL_HOST_PASSWORD = 'edk2239EK'
-
-EMAIL_PORT = 587
-
-EMAIL_USE_TLS = True
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')
