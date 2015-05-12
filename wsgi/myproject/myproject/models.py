@@ -1,5 +1,5 @@
 from mongoengine import *
-connect('test')
+connect('python', username='admin', password='kYD1vRSUspmw')
 from mongoengine.django.auth import User
 from rest_framework import serializers
 
