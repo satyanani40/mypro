@@ -1,5 +1,5 @@
 from mongoengine import *
-connect(name='python', username='admin', password='kYD1vRSUspmw', host='mongodb://$OPENSHIFT_MONGODB_DB_HOST:$OPENSHIFT_MONGODB_DB_PORT/')
+connect('python', host='mongodb://$OPENSHIFT_MONGODB_DB_HOST:$OPENSHIFT_MONGODB_DB_PORT/')
 from mongoengine.django.auth import User
 from rest_framework import serializers
 
