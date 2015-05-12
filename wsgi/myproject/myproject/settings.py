@@ -47,8 +47,7 @@ INSTALLED_APPS = (
     'rest_framework_mongoengine',
 )
 
-print '------------------'
-print BASE_DIR
+
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'myproject/static/app/views/'),
