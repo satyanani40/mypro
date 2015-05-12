@@ -47,10 +47,12 @@ INSTALLED_APPS = (
     'rest_framework_mongoengine',
 )
 
+print '------------------'
+print BASE_DIR
 
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'sample/static/app/views/'),
-    os.path.join(BASE_DIR, 'sample/static/app/'),
+    os.path.join(BASE_DIR, 'myproject/static/app/views/'),
+    os.path.join(BASE_DIR, 'myproject/static/app/'),
 )
 
 
@@ -59,7 +61,7 @@ STATIC_ROOT= os.path.join(BASE_DIR,'static_media/')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR,"sample/static/"),
+    os.path.join(BASE_DIR,"myproject/static/"),
 )
 
 
@@ -76,7 +78,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    #'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
+    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )

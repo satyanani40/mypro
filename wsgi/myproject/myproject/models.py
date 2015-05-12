@@ -1,5 +1,6 @@
 from mongoengine import *
 connect('python', host='mongodb://127.11.17.2:27017/')
+#connect('test')
 from mongoengine.django.auth import User
 from rest_framework import serializers
 
