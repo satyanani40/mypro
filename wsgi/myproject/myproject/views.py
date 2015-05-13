@@ -161,10 +161,10 @@ class DoRegister(View):
                 msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
                 #msg.attach_alternative(html_content, "text/html")
                 msg.send()
-                status = ('a details  has been sent to your '+user_email+' please click on the link')
+                status = 'a details  has been sent to your '+user_email+' please click on the link'
             else:
-                status = ('email or username alredy exits')
-            return HttpResponse(json.dumps({'status':status}))
+                status = 'email or username alredy exits'
+            return HttpResponse(json.dumps(status))
         except Exception as e:
             return HttpResponse(e)
 
