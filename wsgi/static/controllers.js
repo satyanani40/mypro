@@ -60,7 +60,7 @@ var myApp = angular.module('myApp',[])
             },
             data: {
                 'chaptername': 'suresh',
-                upload: $scope.file
+                'upload': $scope.file
             },
             transformRequest: function (data, headersGetter) {
                 var formData = new FormData();

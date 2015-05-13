@@ -27,9 +27,21 @@ angular
         templateUrl: 'static/app/views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/login', {
+        templateUrl: 'static/app/views/login.html',
+        controller: 'LoginCtrl'
+      })
+      .when('/register', {
+        templateUrl: 'static/app/views/register.html',
+        controller: 'RegisterCtrl'
+      })
       .when('/courses', {
         templateUrl: 'static/app/views/courses.html',
         controller: 'AboutCtrl'
+      })
+      .when('/feedback', {
+        templateUrl: 'static/app/views/feedback.html',
+        controller: 'FeedbackCtrl'
       })
       .when('/courses/wind-energy', {
         templateUrl: 'static/app/views/wind-energy.html',
@@ -37,7 +49,20 @@ angular
       })
       .when('/courses/wind-energy/tutorials', {
         templateUrl: 'static/app/views/tutorials.html',
-        controller: 'AboutCtrl'
+        controller: 'ChapterListCtrl'
+      })
+
+      .when('/courses/wind-energy/tutorials/chapter_pdf/:path', {
+        templateUrl: 'static/app/views/tutorials.html',
+        controller: 'ChapterListCtrl'
+      })
+      .when('/courses/wind-energy/tutorials/create-chapter', {
+        templateUrl: 'static/app/views/create-chapter.html',
+        controller: 'CreateChapterCtrl'
+      })
+      .when('/courses/wind-energy/tutorials/create_assessment', {
+        templateUrl: 'static/app/views/create_assessment.html',
+        controller: 'createAssessmentCtrl'
       })
       .when('/courses/wind-energy/assessments', {
         templateUrl: 'static/app/views/assessments.html',
