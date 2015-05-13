@@ -166,8 +166,7 @@ class DoRegister(View):
                 status = ('email or username alredy exits')
             return HttpResponse(json.dumps({'status':status}))
         except Exception as e:
-            print e
-            return HttpResponse({'status':e})
+            return HttpResponse(e)
 
 class Feedback(View):
     def get(self, request):
