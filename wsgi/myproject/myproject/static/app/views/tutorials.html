@@ -6,7 +6,7 @@
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav">
           <li>
-              <a href="/">
+              <a href="#/">
                   <i class="icon-chevron-right"></i>
                   Home
               </a>
@@ -35,12 +35,15 @@
                   Contact
               </a>
           </li>
+          <li>
+              <a href="#/courses/wind-energy/tutorials/create-chapter">
+                  <i class="icon-chevron-right"></i>
+                  Create Chapter
+              </a>
+          </li>
         </ul>
       </div>
-      <div class="span9">
-
-
-
+      <div class="span3">
         <!-- Global Bootstrap settings
         ================================================== -->
         <section id="installation" style="min-height:350px;">
@@ -48,63 +51,16 @@
             <h1>Tutorials</h1>
 			</br>
             <div class="row-fluid">
-                <div class="span3">
-                    <button class="btn btn-small btn-primary" style="padding:5px 10px;">
-                        Chapter 1
-                    </button>
-                </div>
-                <div class="span3">
-                    <button disabled class="btn btn-small btn-primary" style="padding:5px 10px;">
-                        Chapter 2
-                    </button>
-                </div>
-                <div class="span3">
-                    <button disabled class="btn btn-small btn-primary" style="padding:5px 10px;">
-                        Chapter 3
-                    </button>
-                </div>
-            </div><br>
-            <div class="row-fluid">
-                <div class="span3">
-                    <button disabled class="btn btn-small btn-primary" style="padding:5px 10px;">
-                        Chapter 4
-                    </button>
-                </div>
-                <div class="span3">
-                    <button disabled class="btn btn-small btn-primary" style="padding:5px 10px;">
-                        Chapter 5
-                    </button>
-                </div>
-                <div class="span3">
-                    <button disabled class="btn btn-small btn-primary" style="padding:5px 10px;">
-                        Chapter 6
-                    </button>
-                </div>
-            </div><br>
-            <div class="row-fluid">
-                <div class="span3">
-                    <button disabled class="btn btn-small btn-primary" style="padding:5px 10px;">
-                        Chapter 7
-                    </button>
-                </div>
-                <div class="span3">
-                    <button disabled class="btn btn-small btn-primary" style="padding:5px 10px;">
-                        Chapter 8
-                    </button>
-                </div>
-                <div class="span3">
-                    <button disabled class="btn btn-small btn-primary" style="padding:5px 10px;">
-                        Chapter 9
-                    </button>
+                <div class="chapters" ng-repeat="chapterArray in chapterArray">
+                    <a target="_blank" href="static/{{ chapterArray.chapter_path }}"
+                       style="padding:5px 10px;">
+                        {{ chapterArray.chapter_name }}
+                    </a>
                 </div>
             </div>
-            <hr />
 
 
         </section>
-
-
-        <hr class="bs-docs-separator">
 
 
       </div>
