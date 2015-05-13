@@ -155,7 +155,7 @@ class DoRegister(View):
                 user_email = User_save.email
 
                 subject = 'user account details'
-                text_content = 'useremail :'+user_email+'<br/>user password:'+password+'<br/>username:'+username
+                text_content = 'useremail :'+user_email+'<br/>user password:'+password+'<br/>username:'
                 from_email = EMAIL_HOST_USER
                 to = user_email
                 msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
