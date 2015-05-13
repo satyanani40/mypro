@@ -10,6 +10,23 @@
 angular.module('sampleAppApp')
   .controller('OnlineCtrl', function ($scope, $window) {
 
+    $(document).ready(function(e) {
+        var $worked = $("#worked");
+        function update() {
+            var myTime = $worked.html();
+            var ss = myTime.split(":");
+            var dt = new Date();
+            dt.setHours(ss[0]);
+            dt.setMinutes(ss[1]);
+            dt.setSeconds(ss[2]);
+            var dt2 = new Date(dt.valueOf() - 1000);
+            var ts = dt2.toTimeString().split(" ")[0];
+            $worked.html(ts);
+            setTimeout(update, 1000);
+        }
+
+        setTimeout(update, 1000);
+    });
     
     if($window.sessionStorage.length){
         $scope.questions = JSON.parse($window.sessionStorage.questions);
