@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/myproject/myproject/models.py" afterPath="$PROJECT_DIR$/wsgi/myproject/myproject/models.py" />
-    </list>
+    <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="" />
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -335,7 +333,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/var/www/lunar-cloud-web-ui/forsatya" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
