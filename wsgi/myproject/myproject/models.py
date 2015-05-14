@@ -19,6 +19,9 @@ class Examdetails(Document):
     c = StringField(max_length= 2500)
     d = StringField(max_length= 2500)
     correct = StringField(max_length= 250)
+    cat = StringField(max_length=500)
+    time = StringField(max_length= 2500)
+    pass_mark = StringField(max_length= 2500)
 
 class Admin(Document):
     email = StringField(max_length=200)
@@ -31,4 +34,5 @@ class Peoples(Document):
     password = StringField(max_length=500)
     is_active = BooleanField(default = False)
     is_superuser = BooleanField(default = False)
+    access_exams = ListField()
 

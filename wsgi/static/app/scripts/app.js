@@ -63,21 +63,25 @@ angular
         templateUrl: 'static/app/views/create-chapter.html',
         controller: 'CreateChapterCtrl'
       })
-      .when('/courses/:categeory/tutorials/create_assessment', {
+      .when('/courses/:categeory/assessments/create_assessment', {
         templateUrl: 'static/app/views/create_assessment.html',
         controller: 'createAssessmentCtrl'
       })
       .when('/courses/:categeory/assessments', {
         templateUrl: 'static/app/views/assessments.html',
-        controller: 'AboutCtrl'
+        controller: 'assessmentsCtrl'
       })
-      .when('/courses/:categeory/assessments/online', {
+      .when('/courses/:categeory/assessments/:exam_name', {
         templateUrl: 'static/app/views/online.html',
         controller: 'OnlineCtrl'
       })
       .when('/admin', {
         templateUrl: 'static/app/views/admin.html',
         controller: 'adminCtrl' //located in login.js
+      })
+      .when('/exam_submit', {
+        templateUrl: 'static/app/views/exam_submit.html',
+        controller: 'submitExam' //located in login.js
       })
        .when('/logout', {
         templateUrl: 'static/app/views/admin.html',

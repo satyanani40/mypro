@@ -150,7 +150,7 @@
                  data-toggle="collapse" data-target="#nav-collapse2"
                  aria-expanded="false" aria-controls="nav-collapse2">
                   <strong>
-                     <div id="worked">03:30:00</div>
+                     <div id="worked">[[ time ]]</div>
                   </strong>
               </a>
             </li>
@@ -182,15 +182,17 @@
             <div class="row" style="margin-top:30px;">
                 <div class="col-lg-12">
                     <div class="[ form-group ]">
+                        [[ question.correct ]]
+                        [[ question.answered ]]
                         <input type="radio" value="[[ question.a ]]" ng-model="answer"
                         ng-checked="true" ng-if="question.answered == question.a"
-                               name="[[ question._id]]" id="[[ question._id]]_1"
+                               name="[[ question._id ]]" id="[[ question._id ]]_1"
                                ng-change="save_answer(question._id, question.a)"/>
 
-                        <input type="radio" value="[[ question.a ]]" ng-model="answer" ng-checked="true"
+                        <input type="radio" value="[[ question.a ]]" ng-model="answer"
                         ng-change="save_answer(question._id, question.a)"
                         ng-if="question.answered != question.a"
-                               name="[[ question._id]]" id="[[ question._id]]_1" />
+                               name="[[ question._id ]]" id="[[ question._id ]]_1" />
                         
                         <div class="[ btn-group ]">
                             <label for="[[ question._id]]_1" style="padding: 2px;border-top-right-radius:3px;border-bottom-right-radius:3px;"
@@ -210,12 +212,12 @@
                         <input type="radio" value="[[ question.b ]]" ng-model="answer"
                          ng-change="save_answer(question._id, question.b)" 
                         ng-if="question.answered == question.b" ng-checked="true"
-                               name="[[ question._id[[" id="[[ question._id[[_2" />
+                               name="[[ question._id]]" id="[[ question._id]]_2" />
 
                         <input type="radio" value="[[ question.b [[" ng-model="answer"
                          ng-change="save_answer(question._id, question.b)"
                         ng-if="question.answered != question.b"
-                               name="[[ question._id[[" id="[[ question._id[[_2" />
+                               name="[[ question._id]]" id="[[ question._id]]_2" />
 
                         <div class="[ btn-group ]">
                             <label for="[[ question._id]]_2" style="padding: 2px;border-top-right-radius:3px;border-bottom-right-radius:3px;"
@@ -251,20 +253,20 @@
                     <div class="[ form-group ]">
                         <input type="radio" value="[[ question.d ]]" ng-model="answer"  ng-change="save_answer(question._id, question.d)"
                         ng-if="question.answered == question.d" ng-checked = "true" ng-change="save_answer(question._id, question.d)"
-                               name="[[ question._id]]" id="[[ question._id]]_4" />
+                               name="[[ question._id ]]" id="[[ question._id ]]_4" />
 
                         <input type="radio" value="[[ question.d ]]" ng-model="answer"
-                        ng-if="question.answered != question.d" 
+                        ng-if="question.answered != question.d"  ng-change="save_answer(question._id, question.d)"
                                name="[[ question._id ]]" id="[[ question._id]]_4" />
                                
 
                         <div class="[ btn-group ]">
-                            <label for="[[ question._id]]_4" style="padding: 2px;border-top-right-radius:3px;border-bottom-right-radius:3px;"
+                            <label for="[[ question._id ]]_4" style="padding: 2px;border-top-right-radius:3px;border-bottom-right-radius:3px;"
                                    class="[ btn btn-default ]">
                                 <span class="[ glyphicon glyphicon-ok ]"></span>
                                 <span> </span>
                             </label>
-                            <label for="[[ question._id]]_4" style="margin-left: 15px;font-weight:100;">
+                            <label for="[[ question._id ]]_4" style="margin-left: 15px;font-weight:100;">
                                 [[ question.d ]]
                             </label>
                         </div>
@@ -304,8 +306,8 @@
                           <th>Grade</th>
                         </tr>
                         <tr ng-repeat="answer in answers">
-                          <td>[[answer.subcode]]</td>
-                          <td>[[answer.grade]]</td>
+                          <td>[[ answer.subcode ]]</td>
+                          <td>[[ answer.grade ]]</td>
                         </tr>
                      </table>
                 </div>

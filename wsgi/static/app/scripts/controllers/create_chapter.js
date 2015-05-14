@@ -87,32 +87,35 @@ angular.module('sampleAppApp')
             });
         };
   })
-  .controller('createAssessmentCtrl', function ($scope, $http) {
-        $scope.uploadFile = function(){
-              console.log($scope.file)
+  .controller('createAssessmentCtrl', function ($scope, $http, $routeParams) {
 
+        $scope.create_examination = function(){
               $http({
-                method: 'POST',
-                url: '/chapter',
-                headers: {
-                    'Content-Type': 'multipart/form-data'
-                },
-                data: {
-                    'chaptername': 'suresh',
-                    'upload': $scope.file
-                },
-                transformRequest: function (data, headersGetter) {
-                    var formData = new FormData();
-                    angular.forEach(data, function (value, key) {
-                        formData.append(key, value);
-                    });
+                    method: 'POST',
+                    url: '/create_exam',
+                    headers: {
+                        'Content-Type': 'multipart/form-data'
+                    },
 
-                    var headers = headersGetter();
-                    delete headers['Content-Type'];
+                    data: {
+                        'exam_name': $scope.exam_name,
+                        'upload': $scope.file,
+                        'cat': $routeParams.categeory,
+                        'exam_time': $scope.exam_time,
+                        'exam_pass_mark': $scope.exam_pass_mark
+                    },
+                    transformRequest: function (data, headersGetter) {
+                        var formData = new FormData();
+                        angular.forEach(data, function (value, key) {
+                            formData.append(key, value);
+                        });
 
-                    return formData;
-                }
-            })
+                        var headers = headersGetter();
+                        delete headers['Content-Type'];
+
+                        return formData;
+                    }
+              })
            .success(function (out) {
                console.log(out);
             })
@@ -121,4 +124,3 @@ angular.module('sampleAppApp')
             });
         };
   });
-

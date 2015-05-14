@@ -30,4 +30,7 @@ urlpatterns = [
     url(r'^chapter', csrf_exempt(Chapters.as_view())),
     url(r'^getAllChapters', csrf_exempt(All_chapters.as_view())),
     url(r'^create_exam', csrf_exempt(CreateExam.as_view())),
+    url(r'^getExams', getExams),
+    url(r'^getExam', getExam),
+    url(r'^updateList', updateList),
 ]

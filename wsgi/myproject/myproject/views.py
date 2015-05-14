@@ -30,12 +30,13 @@ class All_chapters(View):
 
 class CreateExam(View):
     def get(self, request):
-        queryset = Examdetails.objects.all()
+
+        """queryset = Examdetails.objects.all()
         data = queryset.to_json()
         loop_data = json.loads(data)
         for k in loop_data:
-            k['_id'] = k['_id']['$oid']
-        return HttpResponse(dumps({'data':loop_data}))
+            k['_id'] = k['_id']['$oid']"""
+        return HttpResponse('bad request')
 
     def post(self, request):
         print request.POST['exam_name']
@@ -60,7 +61,7 @@ class CreateExam(View):
             fout.close()
 
             with open(full_filename, 'rb') as csvfile:
-                spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+                spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
                 counter = 0
                 for row in spamreader:
                     print '-------------------------'
@@ -68,7 +69,7 @@ class CreateExam(View):
                     details = data.split(",")
 
                     if counter > 0:
-                        exam_details_insert = Examdetails(exam_name = request.POST['exam_name'])
+                        exam_details_insert = Examdetails(exam_name = request.POST['exam_name'], cat = request.POST['cat'])
                         exam_details_insert.cat = request.POST['cat']
                         exam_details_insert.question =details[0]
                         exam_details_insert.a = details[1]
@@ -76,6 +77,8 @@ class CreateExam(View):
                         exam_details_insert.c = details[3]
                         exam_details_insert.d = details[4]
                         exam_details_insert.correct = details[5]
+                        exam_details_insert.time = request.POST['exam_time']
+                        exam_details_insert.pass_mark = request.POST['exam_pass_mark']
                         exam_details_insert.save()
                     counter += 1
 
@@ -242,3 +245,25 @@ def is_useravaible(username):
     except Exception as e:
         status = 0
     return status
+
+@csrf_exempt
+def getExams(request):
+    print '--------------------DDDDDDDDDD'
+    data = json.loads(request.body)
+    print data['cat']
+    exam_query = Examdetails.objects(cat= data['cat'])
+    return HttpResponse(dumps({'data':exam_query.to_json()}))
+
+@csrf_exempt
+def getExam(request):
+    print '--------------------DDDDDDDDDD'
+    data = json.loads(request.body)
+    print data['cat']
+    exam_query = Examdetails.objects(cat= data['cat'], exam_name= data['exam_name'])
+    return HttpResponse(dumps({'data':exam_query.to_json()}))
+
+@csrf_exempt
+def updateList(request):
+    data = json.loads(request.body)
+    Peoples.objects(email=data['email']).update_one(push__access_exams=data['exam_name'])
+    return HttpResponse('hai')
