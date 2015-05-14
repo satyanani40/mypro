@@ -1,6 +1,6 @@
 from mongoengine import *
-connect('python', host='mongodb://admin:kYD1vRSUspmw@127.11.17.2:27017/')
-#connect('test')
+#connect('python', host='mongodb://admin:kYD1vRSUspmw@127.11.17.2:27017/')
+connect('test')
 from mongoengine.django.auth import User
 from rest_framework import serializers
 
@@ -9,6 +9,7 @@ from rest_framework_mongoengine.serializers import DocumentSerializer
 class Chapterdetails(Document):
     chapter_name = StringField(max_length=200)
     chapter_path = StringField(max_length=500)
+    cat = StringField(max_length=500)
 
 class Examdetails(Document):
     exam_name = StringField(max_length= 25000)
@@ -18,3 +19,16 @@ class Examdetails(Document):
     c = StringField(max_length= 2500)
     d = StringField(max_length= 2500)
     correct = StringField(max_length= 250)
+
+class Admin(Document):
+    email = StringField(max_length=200)
+    password = StringField(max_length=500)
+    is_active = BooleanField(default = False)
+    is_superuser = BooleanField(default = False)
+
+class Peoples(Document):
+    email = StringField(max_length=200)
+    password = StringField(max_length=500)
+    is_active = BooleanField(default = False)
+    is_superuser = BooleanField(default = False)
+

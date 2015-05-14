@@ -51,7 +51,8 @@ angular.module('sampleAppApp')
         .error(function(){
         });
     }
-}]).controller('CreateChapterCtrl', function ($scope, $http) {
+}]).controller('CreateChapterCtrl', function ($scope, $http, $routeParams) {
+
         $scope.uploadFile = function(){
               console.log($scope.file)
 
@@ -63,7 +64,8 @@ angular.module('sampleAppApp')
                 },
                 data: {
                     'chaptername': 'suresh',
-                    'upload': $scope.file
+                    'upload': $scope.file,
+                    'cat': $routeParams.categeory
                 },
                 transformRequest: function (data, headersGetter) {
                     var formData = new FormData();

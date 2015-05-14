@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 import os
 DJ_PROJECT_DIR = os.path.dirname(__file__)
 BASE_DIR = os.path.dirname(DJ_PROJECT_DIR)
+BACK_PATH = os.path.normpath(os.getcwd() + os.sep + os.pardir)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
@@ -48,19 +49,20 @@ INSTALLED_APPS = (
 )
 
 
-
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'myproject/static/app/views/'),
-    os.path.join(BASE_DIR, 'myproject/static/app/'),
+    os.path.join(BACK_PATH, 'static/app/views/'),
+    os.path.join(BACK_PATH, 'static/app/'),
 )
 
 
-STATIC_ROOT= os.path.join(BASE_DIR,'static_media/')
+STATIC_ROOT= os.path.join(BACK_PATH,'static_media/')
 
 STATIC_URL = '/static/'
+print '----------------------------------->>>'
+print BASE_DIR
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR,"myproject/static/"),
+    os.path.join(BACK_PATH,"static/"),
 )
 
 

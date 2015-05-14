@@ -49,6 +49,7 @@ class CreateExam(View):
         # save the uploaded file inside that folder.
         uploaded_filename = datetime.datetime.now().strftime("%y_%m_%d_%H_%M_%S_%f_file.csv")
         full_filename = os.path.join(BASE_DIR, folder, uploaded_filename)
+
         store_path = folder+'/'+uploaded_filename
         fout = open(full_filename, 'wb+')
         file_content = ContentFile(request.FILES['upload'].read())
@@ -87,21 +88,54 @@ class LoginCheck(View):
     def get(self, request):
         return render(request, 'chapters.html')
     def post(self, request):
-        data = json.loads(request.body)
-        email = data['email']
-        password = data['password']
-        user = authenticate(email=email, password=password)
-        if user is not None:
-            # the password verified for the user
-            if user.is_active:
-                return HttpResponse(json.dumps({'data':user.to_json(),'status':200}))
+        try:
+            data = json.loads(request.body)
+            email = data['email']
+            password = data['password']
+            user = Peoples.objects.get(email=email, password=password)
+            user_data = json.loads(user.to_json())
+            user_data['_id'] = str(user_data['_id']['$oid'])
+            if user is not None:
+                # the password verified for the user
+                if user.is_active:
+                    return HttpResponse(json.dumps({'data':user_data,'status':200}))
+                else:
+                    return HttpResponse(json.dumps({'status':400}))
             else:
+                # the authentication system was unable to verify the username and password
                 return HttpResponse(json.dumps({'status':400}))
-        else:
-            # the authentication system was unable to verify the username and password
+
+            return HttpResponse(json.dumps({'status':400}))
+        except Exception as e:
             return HttpResponse(json.dumps({'status':400}))
 
-        return HttpResponse(json.dumps({'status':400}))
+class AdminLogin(View):
+
+    def get(self, request):
+        return HttpResponse('method not allowed')
+    def post(self, request):
+        try:
+            data = json.loads(request.body)
+            email = data['email']
+            password = data['password']
+            user = Admin.objects.get(email=email, password=password)
+            user_data = json.loads(user.to_json())
+            user_data['_id'] = str(user_data['_id']['$oid'])
+
+            if user is not None:
+                # the password verified for the user
+                if user.is_active:
+                    return HttpResponse(json.dumps({'data':user_data,'status':200}))
+                else:
+                    return HttpResponse(json.dumps({'status':400}))
+            else:
+                # the authentication system was unable to verify the username and password
+                return HttpResponse(json.dumps({'status':400}))
+
+            return HttpResponse(json.dumps({'status':400}))
+        except Exception as e:
+            print e
+            return HttpResponse(json.dumps({'status':400}))
 
 class Chapters(View):
     def get(self, request):
@@ -111,12 +145,12 @@ class Chapters(View):
         folder = 'chapter_pdf'
         uploaded_filename = request.FILES['upload'].name
         try:
-            os.mkdir(os.path.join(BASE_DIR, folder))
+            os.mkdir(os.path.join( BACK_PATH+"/static/", folder))
         except:
             pass
         # save the uploaded file inside that folder.
         uploaded_filename = datetime.datetime.now().strftime("%y_%m_%d_%H_%M_%S_%f_file.pdf")
-        full_filename = os.path.join(BASE_DIR, folder, uploaded_filename)
+        full_filename = os.path.join( BACK_PATH+"/static/", folder, uploaded_filename)
         store_path = folder+'/'+uploaded_filename
         fout = open(full_filename, 'wb+')
         file_content = ContentFile(request.FILES['upload'].read())
@@ -132,12 +166,13 @@ class Chapters(View):
             html = "<html><body>SAVED</body></html>"
             return HttpResponse(html)
         except Exception as e:
+            print e
             html = "<html><body>NOT SAVED</body></html>"
             return HttpResponse(html)
 
 class DoRegister(View):
     def get(self, request):
-        return render(request, 'chapters.html')
+        return HttpResponse('bad request')
 
     def post(self, request):
         try:
@@ -149,7 +184,7 @@ class DoRegister(View):
             #isusername = is_useravaible(username)
 
             if not isuser_email:
-                User_save = User.create_user(email=email, password=password)
+                User_save = Peoples(email=email, password=password)
                 User_save.is_active = True;
                 User_save.save()
                 user_email = User_save.email
@@ -192,7 +227,7 @@ def is_emailalredyexits(email):
     status = 0
     try:
         if email:
-            User.objects.get(email=email)
+            Peoples.objects.get(email=email)
             status = 1
     except Exception as e:
         status = 0
@@ -202,7 +237,7 @@ def is_useravaible(username):
     status = 0
     try:
         if username:
-            User.objects.get(username=username)
+            Peoples.objects.get(username=username)
             status = 1
     except Exception as e:
         status = 0

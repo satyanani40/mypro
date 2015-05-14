@@ -10,9 +10,17 @@
                 </button>
                 <a class="brand" href="#/" style="color:#fff;">DLPSTAFFS</a>
                 <div class="nav-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right pull-right">
+                    <ul class="nav navbar-nav navbar-right pull-right" ng-if="isAuthenticated != true">
+
                         <li class="dropdown active"><a href="#/login">Login</a></li>
+                        <li class="dropdown active"><a href="#/admin">Admin Login</a></li>
                         <li class="dropdown active"><a href="#/register">Create User</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right pull-right" ng-if="isAuthenticated == true">
+
+                        <li class="dropdown active"><a href="#/logout">Logout</a></li>
+                        <li class="dropdown active" ng-if="currentUser.is_superuser"><a href="#/register">Create User</a></li>
                     </ul>
                 </div>
 

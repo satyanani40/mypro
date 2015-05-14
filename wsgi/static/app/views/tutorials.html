@@ -35,7 +35,7 @@
                   Contact
               </a>
           </li>
-          <li>
+          <li ng-if="currentUser.is_superuser">
               <a href="#/courses/wind-energy/tutorials/create-chapter">
                   <i class="icon-chevron-right"></i>
                   Create Chapter
@@ -52,9 +52,9 @@
 			</br>
             <div class="row-fluid">
                 <div class="chapters" ng-repeat="chapterArray in chapterArray">
-                    <a target="_blank" href="static/{{ chapterArray.chapter_path }}"
+                    <a target="_blank" href="static/[[ chapterArray.chapter_path ]]"
                        style="padding:5px 10px;">
-                        {{ chapterArray.chapter_name }}
+                        [[ chapterArray.chapter_name ]]
                     </a>
                 </div>
             </div>

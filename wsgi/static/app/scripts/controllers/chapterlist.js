@@ -10,6 +10,7 @@
 angular.module('sampleAppApp')
   .controller('ChapterListCtrl', function ($scope, $http) {
         $scope.chapterArray = [];
+
         $http.get('/getAllChapters')
            .success(function (data) {
                console.log("return chapters data", data.data[0].chapter_name);

@@ -17,6 +17,9 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
+  .config(function($interpolateProvider){
+    $interpolateProvider.startSymbol('[[').endSymbol(']]');
+  })
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -43,34 +46,42 @@ angular
         templateUrl: 'static/app/views/feedback.html',
         controller: 'FeedbackCtrl'
       })
-      .when('/courses/wind-energy', {
+      .when('/courses/:categeory', {
         templateUrl: 'static/app/views/wind-energy.html',
         controller: 'AboutCtrl'
       })
-      .when('/courses/wind-energy/tutorials', {
+      .when('/courses/:categeory/tutorials', {
         templateUrl: 'static/app/views/tutorials.html',
         controller: 'ChapterListCtrl'
       })
 
-      .when('/courses/wind-energy/tutorials/chapter_pdf/:path', {
+      .when('/courses/:categeory/tutorials/chapter_pdf/:path', {
         templateUrl: 'static/app/views/tutorials.html',
         controller: 'ChapterListCtrl'
       })
-      .when('/courses/wind-energy/tutorials/create-chapter', {
+      .when('/courses/:categeory/tutorials/create-chapter', {
         templateUrl: 'static/app/views/create-chapter.html',
         controller: 'CreateChapterCtrl'
       })
-      .when('/courses/wind-energy/tutorials/create_assessment', {
+      .when('/courses/:categeory/tutorials/create_assessment', {
         templateUrl: 'static/app/views/create_assessment.html',
         controller: 'createAssessmentCtrl'
       })
-      .when('/courses/wind-energy/assessments', {
+      .when('/courses/:categeory/assessments', {
         templateUrl: 'static/app/views/assessments.html',
         controller: 'AboutCtrl'
       })
-      .when('/courses/wind-energy/assessments/online', {
+      .when('/courses/:categeory/assessments/online', {
         templateUrl: 'static/app/views/online.html',
         controller: 'OnlineCtrl'
+      })
+      .when('/admin', {
+        templateUrl: 'static/app/views/admin.html',
+        controller: 'adminCtrl' //located in login.js
+      })
+       .when('/logout', {
+        templateUrl: 'static/app/views/admin.html',
+        controller: 'logoutCtrl' //located in login.js
       })
       .otherwise({
         redirectTo: '/'
