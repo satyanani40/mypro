@@ -264,6 +264,17 @@ def getExam(request):
 
 @csrf_exempt
 def updateList(request):
-    data = json.loads(request.body)
-    Peoples.objects(email=data['email']).update_one(push__access_exams=data['exam_name'])
-    return HttpResponse('hai')
+    try:
+        data = json.loads(request.body)
+        print data['email']
+        print data['exam_name']
+        data_object = Peoples.objects(email=data['email'])
+        for temp in data_object:
+            for temp2 in temp.access_exams:
+                if temp2 == data['exam_name']:
+                    return HttpResponse('bad request')
+
+        Peoples.objects(email=data['email']).update_one(push__access_exams=data['exam_name'])
+        return HttpResponse('hai')
+    except Examdetails as e:
+        return HttpResponse(e)

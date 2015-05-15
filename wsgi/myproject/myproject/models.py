@@ -28,6 +28,7 @@ class Admin(Document):
     password = StringField(max_length=500)
     is_active = BooleanField(default = False)
     is_superuser = BooleanField(default = False)
+    access_exams = ListField()
 
 class Peoples(Document):
     email = StringField(max_length=200)

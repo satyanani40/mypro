@@ -10,6 +10,11 @@
 angular.module('sampleAppApp')
   .controller('OnlineCtrl', function ($scope, $window, $routeParams, $rootScope, $http) {
 
+    if(!($rootScope.isAuthenticated)){
+        alert('please login to write exam');
+        $location.path('/')
+    }
+
     $(document).ready(function(e) {
         var $worked = $("#worked");
         function update() {
@@ -183,11 +188,11 @@ angular.module('sampleAppApp')
                     }
 
             }).success(function (out) {
-                console.log(out)
+                console.log(out);
             });
         }
 
-        //$window.location.replace("http://127.0.0.1:8000/#/exam_submit")
+        $window.location.replace("http://127.0.0.1:8000/#/exam_submit")
     }
   
   })
