@@ -56,7 +56,7 @@ TEMPLATE_DIRS = (
 )
 
 
-STATIC_ROOT= os.path.join(BACK_PATH,'static_media/')
+STATIC_ROOT= os.path.join(BACK_PATH,'static/')
 
 STATIC_URL = '/static/'
 print '----------------------------------->>>'
