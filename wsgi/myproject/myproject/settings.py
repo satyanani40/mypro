@@ -14,10 +14,7 @@ DJ_PROJECT_DIR = os.path.dirname(__file__)
 BASE_DIR = os.path.dirname(DJ_PROJECT_DIR)
 
 BACK_PATH = os.path.normpath(os.getcwd() + os.sep + os.pardir)
-os.chdir("..")
-
-BACK_PATH = os.path.abspath(os.curdir)
-
+BACK_PATH = BACK_PATH+'/55526061fcf933df0e00002e/app-root/runtime/repo/wsgi/'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
