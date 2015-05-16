@@ -15,6 +15,7 @@ BASE_DIR = os.path.dirname(DJ_PROJECT_DIR)
 
 BACK_PATH = os.path.normpath(os.getcwd() + os.sep + os.pardir)
 os.chdir("..")
+
 BACK_PATH = os.path.abspath(os.curdir)
 
 # Quick-start development settings - unsuitable for production
