@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/index.html" afterPath="$PROJECT_DIR$/wsgi/static/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/myproject/myproject/settings.py" afterPath="$PROJECT_DIR$/wsgi/myproject/myproject/settings.py" />
     </list>
     <ignored path="python.iws" />
@@ -78,8 +77,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3569061" vertical-offset="684" max-vertical-offset="2736">
-              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.60883975" vertical-offset="684" max-vertical-offset="2736">
+              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -830,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3569061" vertical-offset="684" max-vertical-offset="2736">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.60883975" vertical-offset="684" max-vertical-offset="2736">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
           <folding />
         </state>
       </provider>
