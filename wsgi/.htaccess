@@ -1,2 +1,0 @@
-RewriteCond %{HTTPS} on
-RewriteRule ^/?$ http://%{SERVER_NAME}/ [R=301,L]
