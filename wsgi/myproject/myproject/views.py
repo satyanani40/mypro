@@ -21,12 +21,13 @@ import csv
 
 class All_chapters(View):
     def get(self, request):
+
         queryset = Chapterdetails.objects.all()
         data = queryset.to_json()
         loop_data = json.loads(data)
         for k in loop_data:
             k['_id'] = k['_id']['$oid']
-        return HttpResponse(dumps({'data':loop_data}))
+        return HttpResponse(dumps({'data':BACK_PATH}))
 
 class CreateExam(View):
     def get(self, request):
