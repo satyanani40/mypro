@@ -196,6 +196,18 @@ angular.module('sampleAppApp')
     }
   
   })
-  .controller('submitExam', function ($scope, $routeParams, $rootScope, $http) {
-
+  .controller('submitExam', function ($scope, $window, $routeParams, $rootScope, $http) {
+        $scope.total_answers = $window.sessionStorage.getItem('total');
+        console.log("total--------", $scope.total_answers);
+        $scope.correct_answers = $window.sessionStorage.getItem('correct')
+        console.log("correct----", $scope.correct_answers)
+        $scope.pass_mark = $window.sessionStorage.getItem('min_pass');
+        if($scope.correct_answers >= $scope.pass_mark){
+            $scope.pass = true;
+        }else{
+            $scope.pass = false;
+        }
+        $window.sessionStorage.removeItem('min_pass');
+        $window.sessionStorage.removeItem('total');
+        $window.sessionStorage.removeItem('correct');
   });
