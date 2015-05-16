@@ -34,3 +34,13 @@ urlpatterns = [
     url(r'^getExam', getExam),
     url(r'^updateList', updateList),
 ]
+
+from django.conf import settings
+
+if settings.DEBUG:
+    urlpatterns += patterns('', (r'^media\/(?P<path>.*)$',
+                                 'django.views.static.serve',
+                                 {'document_root': settings.STATIC_ROOT}),
+                           )
+    from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+    urlpatterns += staticfiles_urlpatterns()
