@@ -63,7 +63,7 @@ print '----------------------------------->>>'
 print BASE_DIR
 
 STATICFILES_DIRS = (
-    os.path.join(BACK_PATH,"static/"),
+    os.path.join(BACK_PATH,"static/app/"),
 )
 
 
