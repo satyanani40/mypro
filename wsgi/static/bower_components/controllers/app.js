@@ -27,64 +27,64 @@ angular
         controller: 'MainCtrl'
       })
       .when('/about', {
-        templateUrl: 'static/bower_components/templates/about.html',
+        templateUrl: 'static/bower_components/about.html',
         controller: 'AboutCtrl'
       })
       .when('/login', {
-        templateUrl: 'static/bower_components/templates/login.html',
+        templateUrl: 'static/bower_components/login.html',
         controller: 'LoginCtrl'
       })
       .when('/register', {
-        templateUrl: 'static/bower_components/templates/register.html',
+        templateUrl: 'static/bower_components/register.html',
         controller: 'RegisterCtrl'
       })
       .when('/courses', {
-        templateUrl: 'static/bower_components/templates/courses.html',
+        templateUrl: 'static/bower_components/courses.html',
         controller: 'AboutCtrl'
       })
       .when('/feedback', {
-        templateUrl: 'static/bower_components/templates/feedback.html',
+        templateUrl: 'static/bower_components/feedback.html',
         controller: 'FeedbackCtrl'
       })
       .when('/courses/:categeory', {
-        templateUrl: 'static/bower_components/templates/wind-energy.html',
+        templateUrl: 'static/bower_components/wind-energy.html',
         controller: 'AboutCtrl'
       })
       .when('/courses/:categeory/tutorials', {
-        templateUrl: 'static/bower_components/templates/tutorials.html',
+        templateUrl: 'static/bower_components/tutorials.html',
         controller: 'ChapterListCtrl'
       })
 
       .when('/courses/:categeory/tutorials/chapter_pdf/:path', {
-        templateUrl: 'static/bower_components/templates/tutorials.html',
+        templateUrl: 'static/bower_components/tutorials.html',
         controller: 'ChapterListCtrl'
       })
       .when('/courses/:categeory/tutorials/create-chapter', {
-        templateUrl: 'static/bower_components/templates/create-chapter.html',
+        templateUrl: 'static/bower_components/create-chapter.html',
         controller: 'CreateChapterCtrl'
       })
       .when('/courses/:categeory/assessments/create_assessment', {
-        templateUrl: 'static/bower_components/templates/create_assessment.html',
+        templateUrl: 'static/bower_components/create_assessment.html',
         controller: 'createAssessmentCtrl'
       })
       .when('/courses/:categeory/assessments', {
-        templateUrl: 'static/bower_components/templates/assessments.html',
+        templateUrl: 'static/bower_components/assessments.html',
         controller: 'assessmentsCtrl'
       })
       .when('/courses/:categeory/assessments/:exam_name', {
-        templateUrl: 'static/bower_components/templates/online.html',
+        templateUrl: 'static/bower_components/online.html',
         controller: 'OnlineCtrl'
       })
       .when('/admin', {
-        templateUrl: 'static/bower_components/templates/admin.html',
+        templateUrl: 'static/bower_components/admin.html',
         controller: 'adminCtrl' //located in login.js
       })
       .when('/exam_submit', {
-        templateUrl: 'static/bower_components/templates/exam_submit.html',
+        templateUrl: 'static/bower_components/exam_submit.html',
         controller: 'submitExam' //located in login.js
       })
        .when('/logout', {
-        templateUrl: 'static/bower_components/templates/admin.html',
+        templateUrl: 'static/bower_components/admin.html',
         controller: 'logoutCtrl' //located in login.js
       })
       .otherwise({
