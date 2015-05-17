@@ -18,6 +18,9 @@ from bson import json_util
 from django.core.serializers.json import DjangoJSONEncoder
 #from rest_framework import viewsets
 import csv
+from mongoengine import *
+connect('python', host='mongodb://admin:kYD1vRSUspmw@127.11.17.2:27017/')
+
 
 class All_chapters(View):
     def get(self, request):
