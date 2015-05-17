@@ -13,7 +13,7 @@ angular.module('sampleAppApp')
 
         $http.get('/getAllChapters')
            .success(function (data) {
-               console.log("return chapters data", data.data[0].chapter_name);
+               console.log("return chapters data", data);
                for(var i=0; i<data.data.length; i++){
                 $scope.chapterArray.push(data.data[i]);
                 console.log("inse",$scope.chapterArray)
