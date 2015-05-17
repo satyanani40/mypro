@@ -26,7 +26,7 @@ class All_chapters(View):
         loop_data = json.loads(data)
         for k in loop_data:
             k['_id'] = k['_id']['$oid']
-        return HttpResponse(dumps({'data':BACK_PATH}))
+        return HttpResponse(dumps({'data':loop_data}))
 
 class CreateExam(View):
     def get(self, request):
