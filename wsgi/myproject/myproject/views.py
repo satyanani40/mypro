@@ -285,5 +285,5 @@ def updateList(request):
 
         Peoples.objects(email=data['email']).update_one(push__access_exams=data['exam_name'])
         return HttpResponse('hai')
-    except Examdetails as e:
+    except Exception  as e:
         return HttpResponse(e)
