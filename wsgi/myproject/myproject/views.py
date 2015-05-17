@@ -189,11 +189,7 @@ class DoRegister(View):
             isuser_email = is_emailalredyexits(email)
             #isusername = is_useravaible(username)
             data = Examdetails.objects.all()
-            first_exam = ""
-            for temp in data:
-                first_exam = temp['_id']
-                break
-
+            dumps({'data':data})
             if not isuser_email:
                 User_save = Peoples(email=email, password=password)
                 User_save.is_active = True;
