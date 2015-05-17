@@ -23,68 +23,68 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'static/bower_components/main.html',
+        templateUrl: 'static/bower_components/templates/main.html',
         controller: 'MainCtrl'
       })
       .when('/about', {
-        templateUrl: 'static/app/views/about.html',
+        templateUrl: 'static/bower_components/templates/about.html',
         controller: 'AboutCtrl'
       })
       .when('/login', {
-        templateUrl: 'static/app/views/login.html',
+        templateUrl: 'static/bower_components/templates/login.html',
         controller: 'LoginCtrl'
       })
       .when('/register', {
-        templateUrl: 'static/app/views/register.html',
+        templateUrl: 'static/bower_components/templates/register.html',
         controller: 'RegisterCtrl'
       })
       .when('/courses', {
-        templateUrl: 'static/app/views/courses.html',
+        templateUrl: 'static/bower_components/templates/courses.html',
         controller: 'AboutCtrl'
       })
       .when('/feedback', {
-        templateUrl: 'static/app/views/feedback.html',
+        templateUrl: 'static/bower_components/templates/feedback.html',
         controller: 'FeedbackCtrl'
       })
       .when('/courses/:categeory', {
-        templateUrl: 'static/app/views/wind-energy.html',
+        templateUrl: 'static/bower_components/templates/wind-energy.html',
         controller: 'AboutCtrl'
       })
       .when('/courses/:categeory/tutorials', {
-        templateUrl: 'static/app/views/tutorials.html',
+        templateUrl: 'static/bower_components/templates/tutorials.html',
         controller: 'ChapterListCtrl'
       })
 
       .when('/courses/:categeory/tutorials/chapter_pdf/:path', {
-        templateUrl: 'static/app/views/tutorials.html',
+        templateUrl: 'static/bower_components/templates/tutorials.html',
         controller: 'ChapterListCtrl'
       })
       .when('/courses/:categeory/tutorials/create-chapter', {
-        templateUrl: 'static/app/views/create-chapter.html',
+        templateUrl: 'static/bower_components/templates/create-chapter.html',
         controller: 'CreateChapterCtrl'
       })
       .when('/courses/:categeory/assessments/create_assessment', {
-        templateUrl: 'static/app/views/create_assessment.html',
+        templateUrl: 'static/bower_components/templates/create_assessment.html',
         controller: 'createAssessmentCtrl'
       })
       .when('/courses/:categeory/assessments', {
-        templateUrl: 'static/app/views/assessments.html',
+        templateUrl: 'static/bower_components/templates/assessments.html',
         controller: 'assessmentsCtrl'
       })
       .when('/courses/:categeory/assessments/:exam_name', {
-        templateUrl: 'static/app/views/online.html',
+        templateUrl: 'static/bower_components/templates/online.html',
         controller: 'OnlineCtrl'
       })
       .when('/admin', {
-        templateUrl: 'static/app/views/admin.html',
+        templateUrl: 'static/bower_components/templates/admin.html',
         controller: 'adminCtrl' //located in login.js
       })
       .when('/exam_submit', {
-        templateUrl: 'static/app/views/exam_submit.html',
+        templateUrl: 'static/bower_components/templates/exam_submit.html',
         controller: 'submitExam' //located in login.js
       })
        .when('/logout', {
-        templateUrl: 'static/app/views/admin.html',
+        templateUrl: 'static/bower_components/templates/admin.html',
         controller: 'logoutCtrl' //located in login.js
       })
       .otherwise({

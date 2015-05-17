@@ -2,15 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/about.js" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/about.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app.js" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/feed.js" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/feed.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/login.js" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/login.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/main.js" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/online.js" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/online.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/register.js" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/assessments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/courses.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/create-chapter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/create_assessment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/exam_submit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/feedback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/online.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/showpdf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/tutorials.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/wind-energy.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/main.html" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/index.html" afterPath="$PROJECT_DIR$/wsgi/static/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,21 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/main.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1539">
+            <state vertical-scroll-proportion="-0.68985176" vertical-offset="928" max-vertical-offset="1805">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docs.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/styles/docs.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20881">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wsgi/static/app/index.html">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80159634" vertical-offset="684" max-vertical-offset="1805">
-              <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1463">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,8 +93,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1881">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="976" max-vertical-offset="1881">
+              <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -106,6 +132,7 @@
         <option value="$PROJECT_DIR$/wsgi/myproject/myproject/settings.py" />
         <option value="$PROJECT_DIR$/wsgi/wsgi.py" />
         <option value="$PROJECT_DIR$/wsgi/static/bower_components/app.js" />
+        <option value="$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js" />
         <option value="$PROJECT_DIR$/wsgi/static/app/index.html" />
       </list>
     </option>
@@ -224,6 +251,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wsgi/static/bower_components" />
+      <recent name="$PROJECT_DIR$/wsgi/static/bower_components/templates" />
       <recent name="$PROJECT_DIR$/wsgi/myproject" />
       <recent name="$PROJECT_DIR$/wsgi/myproject/myproject" />
       <recent name="$PROJECT_DIR$/wsgi" />
@@ -421,14 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="5092">
           <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1539">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -649,17 +669,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js">
+    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1881">
-          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1463">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/main.html">
+    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1539">
+        <state vertical-scroll-proportion="0.0" vertical-offset="976" max-vertical-offset="1881">
+          <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/styles/docs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20881">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -667,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80159634" vertical-offset="684" max-vertical-offset="1805">
-          <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+        <state vertical-scroll-proportion="-0.68985176" vertical-offset="928" max-vertical-offset="1805">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
           <folding />
         </state>
       </provider>
