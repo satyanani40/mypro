@@ -138,7 +138,7 @@ class AdminLogin(View):
             return HttpResponse(json.dumps({'status':400}))
         except Exception as e:
             print e
-            return HttpResponse(json.dumps({'status':400}))
+            return HttpResponse(json.dumps({'status':400, 'error': e}))
 
 class Chapters(View):
     def get(self, request):
@@ -185,10 +185,16 @@ class DoRegister(View):
             email    = data['email']      #request_data['email'
             isuser_email = is_emailalredyexits(email)
             #isusername = is_useravaible(username)
+            data = Examdetails.objects.all()
+            first_exam = ""
+            for temp in data:
+                first_exam = temp['_id']
+                break
 
             if not isuser_email:
                 User_save = Peoples(email=email, password=password)
                 User_save.is_active = True;
+                User_save.access_exams = [first_exam]
                 User_save.save()
                 user_email = User_save.email
 
