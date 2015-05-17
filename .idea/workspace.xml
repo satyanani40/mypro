@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/admin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/assessments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/courses.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/create-chapter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/create_assessment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/docs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/exam_submit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/feedback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/styles/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/showpdf.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/tutorials.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/wind-energy.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/main.html" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/index.html" afterPath="$PROJECT_DIR$/wsgi/static/app/index.html" />
-    </list>
+    <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="" />
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +37,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.68985176" vertical-offset="928" max-vertical-offset="1805">
+            <state vertical-scroll-proportion="-0.663626" vertical-offset="905" max-vertical-offset="1805">
               <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
               <folding />
             </state>
@@ -83,7 +57,7 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1463">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1463">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -166,6 +140,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,7 +215,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,14 +374,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24945416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24945416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -418,9 +392,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960325" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -445,6 +419,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="5092">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1805">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/styles/docs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20881">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1463">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="976" max-vertical-offset="1881">
+          <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="5092">
@@ -695,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.68985176" vertical-offset="928" max-vertical-offset="1805">
+        <state vertical-scroll-proportion="-0.663626" vertical-offset="905" max-vertical-offset="1805">
           <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
           <folding />
         </state>
