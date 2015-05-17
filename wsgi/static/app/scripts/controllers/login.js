@@ -47,7 +47,7 @@ angular.module('sampleAppApp')
                     for(var k in  $rootScope.currentUser.access_exams){
                         $window.sessionStorage.setItem('present_exam', $rootScope.currentUser.access_exams[k])
                     }
-                    console.log('present exam', $window.sessionStorage.getItem(present_exam))
+                    console.log('present exam', $window.sessionStorage.getItem('present_exam'))
                     $rootScope.isAuthenticated = true;
                     $window.sessionStorage.setItem('user',JSON.stringify(out.data));
                     //$location.path('/');
