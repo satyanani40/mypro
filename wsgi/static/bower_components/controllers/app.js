@@ -23,7 +23,7 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'static/bower_components/templates/main.html',
+        templateUrl: 'static/bower_components/main.html',
         controller: 'MainCtrl'
       })
       .when('/about', {
