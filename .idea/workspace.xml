@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/myproject/myproject/views.py" afterPath="$PROJECT_DIR$/wsgi/myproject/myproject/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/myproject/myproject/urls.py" afterPath="$PROJECT_DIR$/wsgi/myproject/myproject/urls.py" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.175" vertical-offset="123" max-vertical-offset="988">
-              <caret line="30" column="52" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.51676303" vertical-offset="123" max-vertical-offset="1007">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
               <folding>
                 <element signature="e#613#664#0" expanded="true" />
               </folding>
@@ -91,8 +91,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.3714285" vertical-offset="1" max-vertical-offset="5586">
-              <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+            <state vertical-scroll-proportion="-8.657143" vertical-offset="3820" max-vertical-offset="5586">
+              <caret line="217" column="14" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="14" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -100,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.74254143" vertical-offset="1850" max-vertical-offset="2755">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1451" max-vertical-offset="2755">
               <caret line="62" column="14" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="14" />
               <folding />
             </state>
@@ -133,7 +133,6 @@
         <option value="$PROJECT_DIR$/wsgi/static/app/views/login.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/views/exam_submit.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/online.js" />
-        <option value="$PROJECT_DIR$/wsgi/myproject/myproject/urls.py" />
         <option value="$PROJECT_DIR$/wsgi/.htaccess" />
         <option value="$PROJECT_DIR$/wsgi/wsgi.py" />
         <option value="$PROJECT_DIR$/wsgi/static/bower_components/app.js" />
@@ -147,6 +146,7 @@
         <option value="$PROJECT_DIR$/wsgi/static/app/views/tutorials.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/chapterlist.js" />
         <option value="$PROJECT_DIR$/wsgi/myproject/myproject/views.py" />
+        <option value="$PROJECT_DIR$/wsgi/myproject/myproject/urls.py" />
       </list>
     </option>
   </component>
@@ -959,16 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.175" vertical-offset="123" max-vertical-offset="988">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="52" />
-          <folding>
-            <element signature="e#613#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
@@ -979,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.3714285" vertical-offset="1" max-vertical-offset="5586">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+        <state vertical-scroll-proportion="-8.657143" vertical-offset="3820" max-vertical-offset="5586">
+          <caret line="217" column="14" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="14" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
@@ -989,9 +979,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.74254143" vertical-offset="1850" max-vertical-offset="2755">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1850" max-vertical-offset="2755">
           <caret line="62" column="14" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51676303" vertical-offset="123" max-vertical-offset="1007">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="e#613#664#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -22,12 +22,13 @@ from django.views.generic import TemplateView
 
 
 urlpatterns = [
-     url(r'^$', TemplateView.as_view(template_name="index.html")),
+    url(r'^$', TemplateView.as_view(template_name="index.html")),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^login', csrf_exempt(LoginCheck.as_view())),
-     url(r'^adminLogin', csrf_exempt(AdminLogin.as_view())),
+    url(r'^adminLogin', csrf_exempt(AdminLogin.as_view())),
     url(r'^register', csrf_exempt(DoRegister.as_view())),
     url(r'^chapter', csrf_exempt(Chapters.as_view())),
+    url(r'^feedback', csrf_exempt(Feedback.as_view())),
     url(r'^getAllChapters', csrf_exempt(All_chapters.as_view())),
     url(r'^create_exam', csrf_exempt(CreateExam.as_view())),
     url(r'^getExams', getExams),
