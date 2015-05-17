@@ -2,29 +2,450 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/.buildignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/admin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/assessments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/courses.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/create-chapter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/create_assessment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/exam_submit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/feedback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/online.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/showpdf.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/tutorials.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/wind-energy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/main.html" afterPath="$PROJECT_DIR$/wsgi/static/bower_components/templates/main.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/angular/ng-file-upload-shim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/angular/ng-file-upload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/angular/version.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/angular/version.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/.buildignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/images/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/images/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/images/leaf-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/images/wind-energy2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/scripts/controllers/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/scripts/controllers/chapterlist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/scripts/controllers/create_chapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/scripts/controllers/feed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/scripts/controllers/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/scripts/controllers/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/scripts/controllers/online.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/scripts/controllers/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/styles/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/styles/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/styles/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/styles/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/styles/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/assessments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/courses.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/create-chapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/create_assessment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/exam_submit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/online.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/showpdf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/tutorials.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/app/views/wind-energy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-animate/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-animate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-animate/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-animate/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-animate/angular-animate.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-animate/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-animate/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-animate/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-cookies/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-cookies/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-cookies/angular-cookies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-cookies/angular-cookies.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-cookies/angular-cookies.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-cookies/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-cookies/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-cookies/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-mocks/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-mocks/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-mocks/angular-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-mocks/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-mocks/ngAnimateMock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-mocks/ngMock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-mocks/ngMockE2E.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-mocks/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-resource/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-resource/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-resource/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-resource/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-resource/angular-resource.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-resource/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-resource/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-resource/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-route/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-route/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-route/angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-route/angular-route.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-route/angular-route.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-route/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-route/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-route/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-sanitize/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-sanitize/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-sanitize/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-sanitize/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-sanitize/angular-sanitize.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-sanitize/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-sanitize/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-sanitize/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-touch/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-touch/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-touch/angular-touch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-touch/angular-touch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-touch/angular-touch.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-touch/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-touch/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular-touch/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular/angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular/angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular/angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/angular/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/grunt/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/grunt/configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/less/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/bootstrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/dist/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/dist/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/ajax/parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/var/getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/var/isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/data/Data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/data/accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/data/var/data_priv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/data/var/data_user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/arr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/strundefined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/bower_components/jquery/src/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/chapter_pdf/15_05_14_19_14_56_288114_file.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/chapter_pdf/15_05_14_19_16_23_955169_file.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/chapter_pdf/15_05_14_19_59_16_598498_file.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/chapter_pdf/15_05_14_19_59_19_927312_file.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/chapter_pdf/15_05_14_20_05_05_364825_file.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/chapter_pdf/15_05_14_20_06_14_324511_file.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/chapter_pdf/15_05_14_20_08_48_317595_file.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/myproject/static/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/.buildignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/.buildignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/images/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/images/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/images/leaf-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/images/wind-energy2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/scripts/controllers/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/scripts/controllers/chapterlist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/scripts/controllers/create_chapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/scripts/controllers/feed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/scripts/controllers/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/scripts/controllers/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/scripts/controllers/online.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/scripts/controllers/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/styles/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/styles/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/styles/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/styles/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/styles/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/assessments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/courses.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/create-chapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/create_assessment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/exam_submit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/online.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/showpdf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/tutorials.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/app/views/wind-energy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/assessments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/chapterlist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/feed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/online.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/controllers/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/courses.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/create-chapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/create_assessment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/create_chapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/exam_submit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/images/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/images/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/images/leaf-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/images/wind-energy2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/images/yeoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/online.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/showpdf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/styles/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/styles/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/styles/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/styles/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/styles/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/.buildignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/assessments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/courses.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/create-chapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/create_assessment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/exam_submit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/feedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/online.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/showpdf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/tutorials.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/templates/wind-energy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/tutorials.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/bower_components/wind-energy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wsgi/static/controllers.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/index.html" afterPath="$PROJECT_DIR$/wsgi/static/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
@@ -53,17 +474,37 @@
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-51.57143" vertical-offset="0" max-vertical-offset="1805">
-              <caret line="76" column="60" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+              <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1881">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/navbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="950">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/main.html">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.021664767" vertical-offset="0" max-vertical-offset="1539">
-              <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1539">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,38 +513,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="2755">
-              <caret line="54" column="43" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="976" max-vertical-offset="1881">
-              <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".buildignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/.buildignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="12.785714" vertical-offset="358" max-vertical-offset="1805">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2755">
+              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -140,19 +551,19 @@
         <option value="$PROJECT_DIR$/wsgi/.htaccess" />
         <option value="$PROJECT_DIR$/wsgi/wsgi.py" />
         <option value="$PROJECT_DIR$/wsgi/static/bower_components/app.js" />
-        <option value="$PROJECT_DIR$/wsgi/static/app/index.html" />
         <option value="$PROJECT_DIR$/wsgi/static/bower_components/templates/navbar.html" />
         <option value="$PROJECT_DIR$/wsgi/myproject/myproject/settings.py" />
         <option value="$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js" />
         <option value="$PROJECT_DIR$/wsgi/static/bower_components/templates/main.html" />
+        <option value="$PROJECT_DIR$/wsgi/static/app/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -246,7 +657,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsgi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsgi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,22 +873,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24945416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24945416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -456,14 +919,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="976" max-vertical-offset="1881">
-          <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="5092">
@@ -472,14 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1881">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5092">
@@ -493,13 +940,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5092">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/myproject/static/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1539">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -645,13 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/myproject/static/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1539">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
@@ -681,124 +1114,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/styles/docs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20881">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.126984" vertical-offset="621" max-vertical-offset="1463">
-          <caret line="53" column="44" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9047619" vertical-offset="0" max-vertical-offset="2375">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/create-chapter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1615">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.952381" vertical-offset="108" max-vertical-offset="950">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/online.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="6156">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9047619" vertical-offset="0" max-vertical-offset="1938">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/showpdf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="905">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/tutorials.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1425">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/wind-energy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1482">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/create_assessment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48099762" vertical-offset="659" max-vertical-offset="1501">
-          <caret line="56" column="58" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1710">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/.buildignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="905">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="2755">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/assessments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1615">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2755">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -806,39 +1125,31 @@
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-51.57143" vertical-offset="0" max-vertical-offset="1805">
-          <caret line="76" column="60" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="12.785714" vertical-offset="358" max-vertical-offset="1805">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1881">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/controllers/app.js">
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="976" max-vertical-offset="1881">
-          <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/.buildignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="905">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/bower_components/templates/main.html">
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.021664767" vertical-offset="0" max-vertical-offset="1539">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1539">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
