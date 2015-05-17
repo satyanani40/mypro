@@ -51,8 +51,8 @@ INSTALLED_APPS = (
 
 
 TEMPLATE_DIRS = (
-    os.path.join(BACK_PATH, 'static/rahul_app/views/'),
-    os.path.join(BACK_PATH, 'static/rahul_app/'),
+    os.path.join(BACK_PATH, 'static/app/views/'),
+    os.path.join(BACK_PATH, 'static/app/'),
 )
 
 
@@ -63,7 +63,7 @@ print '----------------------------------->>>'
 print BASE_DIR
 
 STATICFILES_DIRS = (
-    os.path.join(BACK_PATH,"static/rahul_app/"),
+    os.path.join(BACK_PATH,"static/app/"),
 )
 
 
