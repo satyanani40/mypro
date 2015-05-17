@@ -15,7 +15,7 @@ angular.module('sampleAppApp')
       'Karma'
     ];
   })
-  .controller('assessmentsCtrl', function ($scope, $routeParams, $rootScope, $http) {
+  .controller('assessmentsCtrl', function ($scope, $routeParams, $rootScope, $http, $window) {
         $rootScope.cat = $routeParams.categeory;
         $http({
                     method: 'POST',
@@ -37,6 +37,7 @@ angular.module('sampleAppApp')
                        exam_names.push($rootScope.exams[temp].exam_name)
                    }
                }
+
               $rootScope.exam_names = exam_names;
 
 
