@@ -37,7 +37,8 @@ angular.module('sampleAppApp')
                        exam_names.push($rootScope.exams[temp].exam_name)
                    }
                }
-              $scope.exam_names = exam_names;
+              $rootScope.exam_names = exam_names;
+
             })
             .error(function (data, status) {
 

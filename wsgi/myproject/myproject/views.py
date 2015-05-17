@@ -18,10 +18,6 @@ from bson import json_util
 from django.core.serializers.json import DjangoJSONEncoder
 #from rest_framework import viewsets
 import csv
-from mongoengine import *
-connect('python', host='mongodb://admin:kYD1vRSUspmw@127.11.17.2:27017/')
-
-
 class All_chapters(View):
     def get(self, request):
         queryset = Chapterdetails.objects.all()
@@ -188,26 +184,34 @@ class DoRegister(View):
             email    = data['email']      #request_data['email'
             isuser_email = is_emailalredyexits(email)
             #isusername = is_useravaible(username)
-            data = Examdetails.objects.all()
-            dumps({'data':data})
-            if not isuser_email:
-                User_save = Peoples(email=email, password=password)
-                User_save.is_active = True;
-                User_save.access_exams = [first_exam]
-                User_save.save()
-                user_email = User_save.email
 
-                subject = 'user account details'
-                text_content = 'useremail :'+user_email+'<br/>user password:'+password+'<br/>username:'
-                from_email = EMAIL_HOST_USER
-                to = user_email
-                msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
-                #msg.attach_alternative(html_content, "text/html")
-                msg.send()
-                status = 'a details  has been sent to your '+user_email+' please click on the link'
+            dataa = Examdetails.objects.all()
+            if dataa is None:
+                return HttpResponse({'status':'first create exam'})
             else:
-                status = 'email or username alredy exits'
-            return HttpResponse(json.dumps(status))
+                access_exam = ''
+                for temp in dataa:
+                   access_exam = temp['exam_name']
+                   break
+
+                if not isuser_email:
+                    User_save = Peoples(email=email, password=password)
+                    User_save.is_active = True;
+                    User_save.access_exams = [access_exam]
+                    User_save.save()
+                    user_email = User_save.email
+
+                    subject = 'user account details'
+                    text_content = 'useremail :'+user_email+'<br/>user password:'+password+'<br/>username:'
+                    from_email = EMAIL_HOST_USER
+                    to = user_email
+                    msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+                    #msg.attach_alternative(html_content, "text/html")
+                    msg.send()
+                    status = 'a details  has been sent to your '+user_email+' please click on the link'
+                else:
+                    status = 'email or username alredy exits'
+                return HttpResponse(json.dumps(status))
         except Exception as e:
             return HttpResponse(e)
 
@@ -281,5 +285,19 @@ def updateList(request):
 
         Peoples.objects(email=data['email']).update_one(push__access_exams=data['exam_name'])
         return HttpResponse('hai')
+    except Exception  as e:
+        return HttpResponse(e)
+
+@csrf_exempt
+def test(request):
+    try:
+        User_save = Peoples.objects.all()
+        for temp in User_save:
+            print '=================='
+            data = temp
+            print data['email']
+            break
+        print '-------------'
+        return HttpResponse('ddd')
     except Exception  as e:
         return HttpResponse(e)

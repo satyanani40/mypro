@@ -34,6 +34,7 @@ urlpatterns = [
     url(r'^getExams', getExams),
     url(r'^getExam', getExam),
     url(r'^updateList', updateList),
+    url(r'^test', test),
 ]
 
 from django.conf import settings
