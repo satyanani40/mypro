@@ -51,8 +51,8 @@ INSTALLED_APPS = (
 
 
 TEMPLATE_DIRS = (
-    os.path.join(BACK_PATH, 'static/bower_components/templates/'),
-
+    os.path.join(BACK_PATH, 'static/app/views/'),
+    os.path.join(BACK_PATH, 'static/app/'),
 )
 
 
