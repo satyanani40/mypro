@@ -22,6 +22,7 @@ angular.module('sampleAppApp')
             $window.sessionStorage.clear();
             $rootScope.currentUser = {};
             $rootScope.isAuthenticated = {};
+            console.log($rootScope.currentUser.access_exams)
             $location.path('/');
         }
   })
@@ -43,9 +44,10 @@ angular.module('sampleAppApp')
                console.log(out);
                if(out.status == 200){
                     $rootScope.currentUser = out.data;
+                    console.log($rootScope.currentUser.access_exams)
                     $rootScope.isAuthenticated = true;
                     $window.sessionStorage.setItem('user',JSON.stringify(out.data));
-                    $location.path('/');
+                    //$location.path('/');
                }
 
             })
