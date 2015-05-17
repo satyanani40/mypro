@@ -192,11 +192,12 @@ angular.module('sampleAppApp')
             });
         }
 
-        $window.location.replace("http://127.0.0.1:8000/#/exam_submit")
+        $window.location.replace("http://python-dlpstaffs.rhcloud.com/#/exam_submit")
     }
   
   })
   .controller('submitExam', function ($scope, $window, $routeParams, $rootScope, $http) {
+
         $scope.total_answers = $window.sessionStorage.getItem('total');
         console.log("total--------", $scope.total_answers);
         $scope.correct_answers = $window.sessionStorage.getItem('correct')
