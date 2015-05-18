@@ -137,7 +137,7 @@ class AdminLogin(View):
             return HttpResponse(json.dumps({'status':400}))
         except Exception as e:
             print e
-            return HttpResponse(json.dumps({'status':400, 'error': e}))
+            return HttpResponse(json.dumps({'status':400}))
 
 class Chapters(View):
     def get(self, request):
