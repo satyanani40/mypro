@@ -232,7 +232,7 @@ angular.module('sampleAppApp')
 
         setInterval(function () {
             $window.location.replace("http://python-dlpstaffs.rhcloud.com/#/");
-        }, 10000);
+        }, 7000);
   })
   .service('check_exam', function($window) {
 
