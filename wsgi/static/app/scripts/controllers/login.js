@@ -21,7 +21,7 @@ angular.module('sampleAppApp')
         if(typeof $window.sessionStorage != 'undefined'){
             $window.sessionStorage.clear();
             $rootScope.currentUser = {};
-            $rootScope.isAuthenticated = {};
+            $rootScope.isAuthenticated = false;
             console.log($rootScope.currentUser.access_exams)
             $location.path('/');
         }

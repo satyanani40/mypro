@@ -15,10 +15,16 @@ angular.module('sampleAppApp')
       'Karma'
     ];
   })
-  .controller('assessmentsCtrl', function ($scope, $routeParams, $rootScope, $http, $window, check_exam) {
+  .controller('assessmentsCtrl', function ($scope, $routeParams, $rootScope, $http,$location, $window, check_exam) {
         $rootScope.cat = $routeParams.categeory;
-        $scope.check_exam = check_exam;
 
+        if(!($rootScope.isAuthenticated)){
+            alert('please login as user to access assignments');
+            $location.path('/');
+            return;
+        }
+
+        $scope.check_exam = check_exam;
         $http({
                     method: 'POST',
                     url: '/getExams',
