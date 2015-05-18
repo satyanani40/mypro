@@ -202,13 +202,12 @@ class DoRegister(View):
                     user_email = User_save.email
 
                     subject = 'user account details'
-                    send_mail('Subject here', 'Here is the message.', 'from@example.com', [user_email], fail_silently=False)
                     text_content = 'useremail :'+user_email+'<br/>user password:'+password+'<br/>username:'
                     from_email = EMAIL_HOST_USER
                     to = user_email
                     msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
                     #msg.attach_alternative(html_content, "text/html")
-                    #msg.send()
+                    msg.send()
                     status = 'a details  has been sent to your '+user_email+' please click on the link'
                 else:
                     status = 'email or username alredy exits'
@@ -292,13 +291,19 @@ def updateList(request):
 @csrf_exempt
 def test(request):
     try:
-        User_save = Peoples.objects.all()
+        """User_save = Peoples.objects.all()
         for temp in User_save:
             print '=================='
             data = temp
             print data['email']
             break
-        print '-------------'
+        print '-------------'"""
+        subject = 'Feedback Information'
+        text_content = 'Content'
+        from_email = "anonymous@gmail.com"
+        to = 'satya.nani.40@gmail.com'
+        msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+        msg.send()
         return HttpResponse('ddd')
     except Exception  as e:
         return HttpResponse(e)
