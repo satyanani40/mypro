@@ -30,6 +30,9 @@ angular
         templateUrl: 'static/app/views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/about/topic', {
+        templateUrl: 'static/app/views/topic.html',
+      })
       .when('/login', {
         templateUrl: 'static/app/views/login.html',
         controller: 'LoginCtrl'
