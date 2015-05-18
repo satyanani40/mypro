@@ -178,11 +178,11 @@ angular.module('sampleAppApp')
             console.log('online exams ', $window.sessionStorage.getItem('exam_list'));
             var exam_list_to_next = $window.sessionStorage.getItem('exam_list')
             console.log('exam_list==>', exam_list_to_next)
-            var last_exam_accessed = user.access_exams[user.length-1]
+            var last_exam_accessed = user.access_exams[user.access_exams.length-1]
             console.log('last access in user==>', last_exam_accessed)
             var index_value = exam_list_to_next.indexOf(last_exam_accessed)
             console.log("index value", index_value)
-            if (exam_list_to_next.length - 1 == index_value){
+            if (exam_list_to_next.length - 1 == index_value && index_value == -1){
                 console.log('last exam in list')
                 return;
             }else{
