@@ -79,12 +79,17 @@ angular.module('sampleAppApp')
 
             })
            .success(function (out) {
+                $scope.error = "";
                if(out.status == 200){
+                    $scope.error = "successfully logged in";
                     console.log(out.data, out.status)
                     $rootScope.currentUser = out.data;
                     $rootScope.isAuthenticated = true;
                     $window.sessionStorage.setItem('user',JSON.stringify(out.data));
                     $location.path('/');
+               }else{
+                $scope.error = "user email and password wrong";
+
                }
             })
             .error(function (data, status) {
