@@ -132,7 +132,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 
 EMAIL_HOST_USER = 'nanisatya282828@gmail.com'
 
-EMAIL_HOST_PASSWORD = 'edk2239EK'
+EMAIL_HOST_PASSWORD = 'raJUgaRU3959.'
 
 EMAIL_PORT = 587
 
