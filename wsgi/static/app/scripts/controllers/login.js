@@ -27,7 +27,9 @@ angular.module('sampleAppApp')
         }
   })
   .controller('LoginCtrl', function ($scope, $http, $rootScope, $window, $location) {
+
         $scope.submitLogin = function() {
+            $scope.error_message = "";
             $http({
                 method: 'POST',
                 url: '/login',
@@ -43,6 +45,7 @@ angular.module('sampleAppApp')
            .success(function (out) {
                console.log(out);
                if(out.status == 200){
+                    $scope.error_message = "successfully logged in"
                     $rootScope.currentUser = out.data;
                     for(var k in  $rootScope.currentUser.access_exams){
                         $window.sessionStorage.setItem('present_exam', $rootScope.currentUser.access_exams[k])
@@ -51,6 +54,8 @@ angular.module('sampleAppApp')
                     $rootScope.isAuthenticated = true;
                     $window.sessionStorage.setItem('user',JSON.stringify(out.data));
                     $location.path('/');
+               }else{
+                $scope.error_message = "useremail and password are wrong"
                }
 
             })
