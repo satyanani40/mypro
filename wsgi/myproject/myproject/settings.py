@@ -130,7 +130,7 @@ STATIC_URL = '/static/'
 
 EMAIL_HOST = 'smtp.gmail.com'
 
-EMAIL_HOST_USER = 'nanisatya282828@gmail.com'
+EMAIL_HOST_USER = 'nani282828@gmail.com'
 
 EMAIL_HOST_PASSWORD = 'raJUgaRU3959.'
 
