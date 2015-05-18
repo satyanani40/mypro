@@ -29,7 +29,7 @@ angular.module('sampleAppApp')
             $scope.error = "successfully submit";
            }else{
              console.log('status', out.status)
-             $scope.error = "failed to submit feed back try again"
+             $scope.error = "failed to submit feed back try again";
            }
         })
         .error(function (data, status) {
