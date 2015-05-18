@@ -228,6 +228,11 @@ angular.module('sampleAppApp')
         $window.sessionStorage.removeItem('min_pass');
         $window.sessionStorage.removeItem('total');
         $window.sessionStorage.removeItem('correct');
+        $window.sessionStorage.clear();
+
+        setInterval(function () {
+            $window.location.replace("http://python-dlpstaffs.rhcloud.com/#/");
+        }, 10000);
   })
   .service('check_exam', function($window) {
 
