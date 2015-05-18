@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/assessments.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/assessments.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/online.js" afterPath="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/online.js" />
     </list>
     <ignored path="python.iws" />
@@ -36,23 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="online.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="online.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/controllers/online.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66408837" vertical-offset="3788" max-vertical-offset="4731">
-              <caret line="231" column="41" selection-start-line="231" selection-start-column="41" selection-end-line="231" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3826" max-vertical-offset="4731">
+              <caret line="242" column="3" selection-start-line="242" selection-start-column="3" selection-end-line="242" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assessments.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="assessments.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/assessments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.071428" vertical-offset="409" max-vertical-offset="1653">
-              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.7800926" vertical-offset="580" max-vertical-offset="1805">
+              <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,8 +148,8 @@
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/login.js" />
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/register.js" />
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/about.js" />
-        <option value="$PROJECT_DIR$/wsgi/static/app/views/assessments.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/online.js" />
+        <option value="$PROJECT_DIR$/wsgi/static/app/views/assessments.html" />
       </list>
     </option>
   </component>
@@ -908,16 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/assessments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.071428" vertical-offset="409" max-vertical-offset="1653">
-          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/controllers/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="1064">
@@ -928,9 +920,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/controllers/online.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66408837" vertical-offset="3788" max-vertical-offset="4731">
-          <caret line="231" column="41" selection-start-line="231" selection-start-column="41" selection-end-line="231" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3826" max-vertical-offset="4731">
+          <caret line="242" column="3" selection-start-line="242" selection-start-column="3" selection-end-line="242" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/assessments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7800926" vertical-offset="580" max-vertical-offset="1805">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

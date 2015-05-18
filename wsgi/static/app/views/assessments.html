@@ -57,6 +57,14 @@
             <div class="row-fluid" ng-repeat="exam in exam_names">
                 [[ check_exam.get(exam) ]]
                 <div class="span3" ng-if="check_exam.get(exam)">
+                    returned true;
+                    <a target="_blank" href="#/courses/wind-energy/assessments/[[ exam ]]"
+                       class="btn btn-small btn-success" style="padding:5px 10px;">
+                        [[ exam ]]
+                    </a>
+                </div>
+                <div class="span3" ng-if="!(check_exam.get(exam))">
+                    return false;
                     <a target="_blank" href="#/courses/wind-energy/assessments/[[ exam ]]"
                        class="btn btn-small btn-success" style="padding:5px 10px;">
                         [[ exam ]]

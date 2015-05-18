@@ -234,10 +234,10 @@ angular.module('sampleAppApp')
 		this.get = function(exam) {
              var user = JSON.parse($window.sessionStorage.getItem('user'));
              console.log(user)
-             console.log(exam)
-             return true;
+             if(user.access_exams.indexOf(exam) == -1){
+                return false;
+             }else{
+                return true;
+             }
 		};
-
-
-
-	})
+});
