@@ -149,6 +149,7 @@ angular.module('sampleAppApp')
     }
 
     $scope.submit_exam = function(){
+        console.log('exam submitted')
         $scope.submitted = true;
         $scope.correct_answers = 0;
         $scope.wrong_answers = 0;
@@ -176,13 +177,17 @@ angular.module('sampleAppApp')
             console.log(user)
             console.log('online exams ', $window.sessionStorage.getItem('exam_list'));
             var exam_list_to_next = $window.sessionStorage.getItem('exam_list')
+            console.log('exam_list==>', exam_list_to_next)
             var last_exam_accessed = user.access_exams[user.length-1]
+            console.log('last access in user==>', last_exam_accessed)
             var index_value = exam_list_to_next.indexOf(last_exam_accessed)
+            console.log("index value", index_value)
             if (exam_list_to_next.length - 1 == index_value){
                 console.log('last exam in list')
                 return;
             }else{
                 var next_access_exam_to = exam_list_to_next[index_value+1]
+                console.log('save next exam ', next_access_exam_to)
                  $http({
                     method: 'POST',
                     url: '/updateList',
@@ -216,6 +221,7 @@ angular.module('sampleAppApp')
         }else{
             $scope.pass = false;
         }
+
         $window.sessionStorage.removeItem('min_pass');
         $window.sessionStorage.removeItem('total');
         $window.sessionStorage.removeItem('correct');
