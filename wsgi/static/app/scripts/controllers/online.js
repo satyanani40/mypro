@@ -229,7 +229,7 @@ angular.module('sampleAppApp')
         $window.sessionStorage.removeItem('total');
         $window.sessionStorage.removeItem('correct');
   })
-  .service('check_exam', function() {
+  .service('check_exam', function($window) {
 
 		this.get = function(exam) {
              var user = JSON.parse($window.sessionStorage.getItem('user'));
