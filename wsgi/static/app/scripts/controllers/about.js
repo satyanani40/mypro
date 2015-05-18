@@ -39,7 +39,7 @@ angular.module('sampleAppApp')
                }
 
               $rootScope.exam_names = exam_names;
-
+              $window.sessionStorage.setItem('exam_list', exam_names);
 
             })
             .error(function (data, status) {

@@ -10,8 +10,7 @@
 angular.module('sampleAppApp')
   .controller('RegisterCtrl', function ($scope, $http) {
         $scope.register = function(){
-
-            $http({
+        $http({
             method: 'POST',
             url: '/register',
             headers: {
@@ -21,13 +20,12 @@ angular.module('sampleAppApp')
                 email : $scope.email,
                 password: $scope.password,
             },
-
         })
-           .success(function (out) {
-               console.log(out);
-            })
-            .error(function (data, status) {
+       .success(function (out) {
+           console.log(out);
+        })
+        .error(function (data, status) {
 
-            });
-        };
+        });
+    };
   });

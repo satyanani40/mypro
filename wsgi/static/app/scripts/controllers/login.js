@@ -50,7 +50,7 @@ angular.module('sampleAppApp')
                     console.log('present exam', $window.sessionStorage.getItem('present_exam'))
                     $rootScope.isAuthenticated = true;
                     $window.sessionStorage.setItem('user',JSON.stringify(out.data));
-                    //$location.path('/');
+                    $location.path('/');
                }
 
             })

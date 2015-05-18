@@ -174,8 +174,16 @@ angular.module('sampleAppApp')
 
             var user = JSON.parse($window.sessionStorage.getItem('user'));
             console.log(user)
-            console.log('online exams ', $rootScope.exam_names);
-            $http({
+            console.log('online exams ', $window.sessionStorage.getItem('exam_list'));
+            var exam_list_to_next = $window.sessionStorage.getItem('exam_list')
+            var last_exam_accessed = user.access_exams[user.length-1]
+            var index_value = exam_list_to_next.indexOf(last_exam_accessed)
+            if (exam_list_to_next.length - 1 == index_value){
+                console.log('last exam in list')
+                return;
+            }else{
+                var next_access_exam_to = exam_list_to_next[index_value+1]
+                 $http({
                     method: 'POST',
                     url: '/updateList',
                     headers: {
@@ -183,13 +191,14 @@ angular.module('sampleAppApp')
                     },
 
                     data: {
-                        'exam_name': $routeParams.exam_name,
+                        'exam_name': next_access_exam_to,
                         'email': user.email
                     }
 
-            }).success(function (out) {
-                console.log(out);
-            });
+                }).success(function (out) {
+                    console.log(out);
+                });
+            }
         }
 
         //$window.location.replace("http://127.0.0.1:8000/#/exam_submit")
