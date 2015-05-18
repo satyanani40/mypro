@@ -15,8 +15,10 @@ angular.module('sampleAppApp')
       'Karma'
     ];
   })
-  .controller('assessmentsCtrl', function ($scope, $routeParams, $rootScope, $http, $window) {
+  .controller('assessmentsCtrl', function ($scope, $routeParams, $rootScope, $http, $window, check_exam) {
         $rootScope.cat = $routeParams.categeory;
+        $scope.check_exam = check_exam;
+        
         $http({
                     method: 'POST',
                     url: '/getExams',
