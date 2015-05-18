@@ -220,21 +220,22 @@ class Feedback(View):
         return render(request, 'chapters.html')
 
     def post(self, request):
-        status = ''
-        data = json.loads(request.body)
-        content = data['content'] #request_data['email'
-        if content:
-            print "----------",content
-            print EMAIL_HOST_USER
-            subject = 'Feedback Information'
-            text_content = 'Content'
-            from_email = "anonymous@gmail.com"
-            to = EMAIL_HOST_USER
-            msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
-            #msg.attach_alternative(html_content, "text/html")
-            msg.send()
-        return HttpResponse("hai")
-
+        try:
+            status = ''
+            data = json.loads(request.body)
+            content = data['content'] #request_data['email'
+            if content:
+                print "----------",content
+                print EMAIL_HOST_USER
+                subject = 'Feedback Information'
+                text_content = content
+                from_email = "anonymous@gmail.com"
+                to = EMAIL_HOST_USER
+                msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+                msg.send()
+            return HttpResponse({'status':200})
+        except Excetptions as e:
+            return HttpResponse({'status':400})
 def is_emailalredyexits(email):
     status = 0
     try:
@@ -303,7 +304,7 @@ def test(request):
         from_email = "anonymous@gmail.com"
         to = 'satya.nani.40@gmail.com'
         msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
-        msg.send()
-        return HttpResponse('ddd')
+        #msg.send()
+        return HttpResponse('testing link')
     except Exception  as e:
         return HttpResponse(e)

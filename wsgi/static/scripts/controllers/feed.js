@@ -10,7 +10,7 @@
 angular.module('sampleAppApp')
   .controller('FeedbackCtrl', function ($scope, $http) {
         $scope.submit_feedback = function(){
-
+        $scope.error = "";
         $http({
             method: 'POST',
             url: '/feedback',
@@ -22,9 +22,13 @@ angular.module('sampleAppApp')
             },
 
         })
-           .success(function (out) {
-               console.log(out);
-            })
+        .success(function (out) {
+          if(out.status == 200){
+              $scope.error = "successfully submited";
+          }else{
+              $scope.error = "failed to submit request try again"
+          }
+        })
             .error(function (data, status) {
 
             });
