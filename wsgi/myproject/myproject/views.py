@@ -12,7 +12,7 @@ from django.core.files.base import ContentFile
 import datetime
 from django.core import serializers
 from mongoengine.django.auth import User
-from django.core.mail import EmailMultiAlternatives
+from django.core.mail import EmailMultiAlternatives, send_mail
 from bson.json_util import dumps
 from bson import json_util
 from django.core.serializers.json import DjangoJSONEncoder
@@ -202,12 +202,13 @@ class DoRegister(View):
                     user_email = User_save.email
 
                     subject = 'user account details'
+                    send_mail('Subject here', 'Here is the message.', 'from@example.com', [user_email], fail_silently=False)
                     text_content = 'useremail :'+user_email+'<br/>user password:'+password+'<br/>username:'
                     from_email = EMAIL_HOST_USER
                     to = user_email
                     msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
                     #msg.attach_alternative(html_content, "text/html")
-                    msg.send()
+                    #msg.send()
                     status = 'a details  has been sent to your '+user_email+' please click on the link'
                 else:
                     status = 'email or username alredy exits'

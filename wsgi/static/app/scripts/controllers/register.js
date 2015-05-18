@@ -22,7 +22,7 @@ angular.module('sampleAppApp')
             },
         })
        .success(function (out) {
-           console.log(out);
+           console.log('--------->register', out);
         })
         .error(function (data, status) {
 
