@@ -22,16 +22,18 @@ angular.module('sampleAppApp')
             },
 
         })
-           .success(function (out) {
-               console.log(out);
-               if(out.status == 200){
-                $scope.error = "successfully submit";
-               }else{
-                 $scope,error = "failed to submit feed back try again"
-               }
-            })
-            .error(function (data, status) {
+        .success(function (out) {
+           console.log(out);
+           if(out.status == 200){
+            console.log('200 status')
+            $scope.error = "successfully submit";
+           }else{
+             console.log('status', out.status)
+             $scope.error = "failed to submit feed back try again"
+           }
+        })
+        .error(function (data, status) {
 
-            });
+        });
         };
   });
