@@ -24,6 +24,11 @@ angular.module('sampleAppApp')
         })
            .success(function (out) {
                console.log(out);
+               if(out.status == 200){
+                $scope.error = "successfully submit";
+               }else{
+                 $scope,error = "failed to submit feed back try again"
+               }
             })
             .error(function (data, status) {
 

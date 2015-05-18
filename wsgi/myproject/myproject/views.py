@@ -233,9 +233,9 @@ class Feedback(View):
                 to = EMAIL_HOST_USER
                 msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
                 msg.send()
-            return HttpResponse({'status':200})
+            return HttpResponse(json.dumps({'status':200}))
         except Excetptions as e:
-            return HttpResponse({'status':400})
+            return HttpResponse(json.dumps({'status':400}))
 def is_emailalredyexits(email):
     status = 0
     try:
