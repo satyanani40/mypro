@@ -178,15 +178,15 @@ angular.module('sampleAppApp')
             console.log('online exams ', $window.sessionStorage.getItem('exam_list'));
             var exam_list_to_next = $window.sessionStorage.getItem('exam_list')
 
-            console.log('exam_list==>', exam_list_to_next)
+            //console.log('exam_list==>', exam_list_to_next)
             exam_list_to_next = exam_list_to_next.split(",");
-            console.log('------after split', exam_list_to_next)
+            //console.log('------after split', exam_list_to_next)
             var last_exam_accessed = user.access_exams[user.access_exams.length-1]
-            console.log('last access in user==>', last_exam_accessed)
+            //console.log('last access in user==>', last_exam_accessed)
             var index_value = exam_list_to_next.indexOf(last_exam_accessed)
-            console.log("index value", index_value)
+            //console.log("index value", index_value)
             if (exam_list_to_next.length - 1 == index_value && index_value == -1){
-                console.log('last exam in list')
+                //console.log('last exam in list')
                 return;
             }else{
                 var next_access_exam_to = exam_list_to_next[index_value+1]
@@ -209,7 +209,7 @@ angular.module('sampleAppApp')
             }
         }
 
-        //$window.location.replace("http://127.0.0.1:8000/#/exam_submit")
+        $window.location.replace("http://python-dlpstaffs.rhcloud.com/#/exam_submit")
     }
   
   })
