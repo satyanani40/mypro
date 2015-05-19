@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/courses.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/courses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/feedback.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/feedback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/styles/bootstrap.css" afterPath="$PROJECT_DIR$/wsgi/static/app/styles/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/navbar.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/navbar.html" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,13 +49,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_assessment.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create_assessment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63169897" vertical-offset="1384" max-vertical-offset="2337">
+            <state vertical-scroll-proportion="-19.785715" vertical-offset="1384" max-vertical-offset="2337">
               <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/app/styles/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="78641" max-vertical-offset="104177">
+              <caret line="4150" column="28" selection-start-line="4150" selection-start-column="28" selection-end-line="4150" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/navbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.04398148" vertical-offset="0" max-vertical-offset="988">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#header#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,14 +127,14 @@
         <option value="$PROJECT_DIR$/wsgi/static/app/views/about2.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/views/topic.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/views/about.html" />
-        <option value="$PROJECT_DIR$/wsgi/static/app/styles/bootstrap.css" />
         <option value="$PROJECT_DIR$/wsgi/static/app/index.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/styles/docs.css" />
-        <option value="$PROJECT_DIR$/wsgi/static/app/views/navbar.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/views/courses.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/views/feedback.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" />
+        <option value="$PROJECT_DIR$/wsgi/static/app/styles/bootstrap.css" />
+        <option value="$PROJECT_DIR$/wsgi/static/app/views/navbar.html" />
       </list>
     </option>
   </component>
@@ -830,14 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/app/styles/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25560537" vertical-offset="78641" max-vertical-offset="104177">
-          <caret line="4151" column="53" selection-start-line="4151" selection-start-column="53" selection-end-line="4151" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/styles/docs.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5643" max-vertical-offset="20881">
@@ -852,17 +865,6 @@
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7142856" vertical-offset="124" max-vertical-offset="988">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#header#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#header#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -943,10 +945,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63169897" vertical-offset="1384" max-vertical-offset="2337">
+        <state vertical-scroll-proportion="-19.785715" vertical-offset="1384" max-vertical-offset="2337">
           <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/styles/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="78641" max-vertical-offset="104177">
+          <caret line="4150" column="28" selection-start-line="4150" selection-start-column="28" selection-end-line="4150" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04398148" vertical-offset="0" max-vertical-offset="988">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#header#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
