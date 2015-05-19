@@ -74,15 +74,16 @@
             <label>Enter chapter name</label>
             <input type="text" placeholder="enter chapter name" ng-model="chapter_name" required="required">
             <br />
-            <div class="fileUpload btn btn-primary">
+            <label>
+                Select PDF
+            </label>
+            <div class="fileUpload btn btn-block btn-primary">
                 <span>Upload</span>
-                <input type="file" class="upload" />
+                <input type="file" file="file"  required class="upload" />
             </div>
-            <label>Select Pdf</label>
-            <input class="form-control" type="file" file="file"  required />
             <br /><br />
 
-            <button class="btn btn-sm" ng-click="uploadFile()">
+            <button class="btn btn-sm btn-success" ng-click="uploadFile()">
                 <strong>
                     Upload me
                 </strong>
