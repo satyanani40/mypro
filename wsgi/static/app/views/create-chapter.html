@@ -1,3 +1,21 @@
+<style>
+    .fileUpload {
+        position: relative;
+        overflow: hidden;
+        margin: 10px;
+    }
+    .fileUpload input.upload {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+</style>
 <div ng-include src="'static/app/views/navbar.html'"></div>
 <div class="container">
     <!-- Docs nav
@@ -56,6 +74,10 @@
             <label>Enter chapter name</label>
             <input type="text" placeholder="enter chapter name" ng-model="chapter_name" required="required">
             <br />
+            <div class="fileUpload btn btn-primary">
+                <span>Upload</span>
+                <input type="file" class="upload" />
+            </div>
             <label>Select Pdf</label>
             <input class="form-control" type="file" file="file"  required />
             <br /><br />
