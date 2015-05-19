@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +60,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="919" max-vertical-offset="1938">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="634" max-vertical-offset="1938">
+              <caret line="69" column="56" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -76,21 +77,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_assessment.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="create_assessment.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.035714" vertical-offset="624" max-vertical-offset="1501">
-              <caret line="55" column="83" selection-start-line="55" selection-start-column="83" selection-end-line="55" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.58494866" vertical-offset="1140" max-vertical-offset="2090">
+              <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create-chapter.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create-chapter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6282782" vertical-offset="1026" max-vertical-offset="2033">
-              <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+            <state vertical-scroll-proportion="-13.678572" vertical-offset="1156" max-vertical-offset="2033">
+              <caret line="81" column="71" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="71" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -171,10 +172,10 @@
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/feed.js" />
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/login.js" />
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/about.js" />
-        <option value="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" />
         <option value="$PROJECT_DIR$/wsgi/myproject/myproject/views.py" />
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js" />
         <option value="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" />
+        <option value="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" />
       </list>
     </option>
   </component>
@@ -974,14 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.828571" vertical-offset="1026" max-vertical-offset="6004">
@@ -992,10 +985,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html">
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.035714" vertical-offset="624" max-vertical-offset="1501">
-          <caret line="55" column="83" selection-start-line="55" selection-start-column="83" selection-end-line="55" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="634" max-vertical-offset="1938">
+          <caret line="69" column="56" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -1010,11 +1003,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6282782" vertical-offset="1026" max-vertical-offset="2033">
-          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+        <state vertical-scroll-proportion="-13.678572" vertical-offset="1156" max-vertical-offset="2033">
+          <caret line="81" column="71" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="71" />
           <folding>
             <element signature="n#style#0;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58494866" vertical-offset="1140" max-vertical-offset="2090">
+          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
