@@ -38,22 +38,22 @@ class CreateExam(View):
         return HttpResponse('bad request')
 
     def post(self, request):
-        print request.POST['exam_name']
-        print request.FILES['upload']
-        folder = 'all_csv_files'
-        uploaded_filename = request.FILES['upload'].name
         try:
-            os.mkdir(os.path.join(BASE_DIR, folder))
-        except:
-            pass
-        # save the uploaded file inside that folder.
-        uploaded_filename = datetime.datetime.now().strftime("%y_%m_%d_%H_%M_%S_%f_file.csv")
-        full_filename = os.path.join(BASE_DIR, folder, uploaded_filename)
+            print request.POST['exam_name']
+            print request.FILES['upload']
+            folder = 'all_csv_files'
+            uploaded_filename = request.FILES['upload'].name
+            try:
+                os.mkdir(os.path.join(BASE_DIR, folder))
+            except:
+                pass
+            # save the uploaded file inside that folder.
+            uploaded_filename = datetime.datetime.now().strftime("%y_%m_%d_%H_%M_%S_%f_file.csv")
+            full_filename = os.path.join(BASE_DIR, folder, uploaded_filename)
 
-        store_path = folder+'/'+uploaded_filename
-        fout = open(full_filename, 'wb+')
-        file_content = ContentFile(request.FILES['upload'].read())
-        try:
+            store_path = folder+'/'+uploaded_filename
+            fout = open(full_filename, 'wb+')
+            file_content = ContentFile(request.FILES['upload'].read())
             # Iterate through the chunks.
             for chunk in file_content.chunks():
                 fout.write(chunk)
@@ -137,7 +137,7 @@ class AdminLogin(View):
             return HttpResponse(json.dumps({'status':400}))
         except Exception as e:
             print e
-            return HttpResponse(json.dumps({'status':e}))
+            return HttpResponse(json.dumps({'status':400}))
 
 class Chapters(View):
     def get(self, request):
