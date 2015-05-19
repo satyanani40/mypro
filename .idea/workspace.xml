@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js" afterPath="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/myproject/myproject/views.py" afterPath="$PROJECT_DIR$/wsgi/myproject/myproject/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,8 +69,8 @@
       <file leaf-file-name="create_chapter.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3071823" vertical-offset="1641" max-vertical-offset="2888">
-              <caret line="101" column="115" selection-start-line="101" selection-start-column="115" selection-end-line="101" selection-end-column="115" />
+            <state vertical-scroll-proportion="0.58856505" vertical-offset="1413" max-vertical-offset="2907">
+              <caret line="102" column="119" selection-start-line="102" selection-start-column="119" selection-end-line="102" selection-end-column="119" />
               <folding />
             </state>
           </provider>
@@ -1012,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3071823" vertical-offset="1641" max-vertical-offset="2888">
-          <caret line="101" column="115" selection-start-line="101" selection-start-column="115" selection-end-line="101" selection-end-column="115" />
+        <state vertical-scroll-proportion="0.58856505" vertical-offset="1413" max-vertical-offset="2907">
+          <caret line="102" column="119" selection-start-line="102" selection-start-column="119" selection-end-line="102" selection-end-column="119" />
           <folding />
         </state>
       </provider>
