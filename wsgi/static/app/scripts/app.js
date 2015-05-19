@@ -34,6 +34,10 @@ angular
         templateUrl: 'static/app/views/about2.html',
 
       })
+       .when('/contact', {
+        templateUrl: 'static/app/views/contact.html',
+
+      })
       .when('/about/topic', {
         templateUrl: 'static/app/views/topic.html',
       })
