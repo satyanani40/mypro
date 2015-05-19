@@ -81,9 +81,9 @@ class CreateExam(View):
                         exam_details_insert.save()
                     counter += 1
 
-            return HttpResponse('hellow')
+            return HttpResponse(json.dumps({'status':200}))
         except Exception as e:
-            return HttpResponse(e)
+            return HttpResponse(json.dumps({'status':400}))
 
 class LoginCheck(View):
 

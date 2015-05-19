@@ -53,6 +53,11 @@ angular.module('sampleAppApp')
     }
 }]).controller('CreateChapterCtrl', function ($scope, $http, $routeParams) {
 
+         if(!($scope.chapter_name || $scope.file || $routeParams.categeory)){
+            alert('please enter all fields');
+            return;
+        }
+
         $scope.uploadFile = function(){
               console.log($scope.file)
 
@@ -63,7 +68,7 @@ angular.module('sampleAppApp')
                     'Content-Type': 'multipart/form-data'
                 },
                 data: {
-                    'chaptername': 'suresh',
+                    'chaptername': $scope.chapter_name,
                     'upload': $scope.file,
                     'cat': $routeParams.categeory
                 },
@@ -94,6 +99,10 @@ angular.module('sampleAppApp')
         };
   })
   .controller('createAssessmentCtrl', function ($scope, $http, $routeParams) {
+        if(!($scope.exam_name || $scope.file || $scope.exam_time || $scope.exam_pass_mark || $routeParams.categeory)){
+            alert('please enter all fields');
+            return;
+        }
 
         $scope.create_examination = function(){
               $http({
