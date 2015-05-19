@@ -39,8 +39,8 @@
       <file leaf-file-name="tutorials.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/tutorials.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0649943" vertical-offset="0" max-vertical-offset="1577">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.5667047" vertical-offset="700" max-vertical-offset="1577">
+              <caret line="63" column="64" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -933,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/tutorials.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0649943" vertical-offset="0" max-vertical-offset="1577">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.5667047" vertical-offset="700" max-vertical-offset="1577">
+          <caret line="63" column="64" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
           <folding />
         </state>
       </provider>
