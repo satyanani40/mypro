@@ -1,7 +1,6 @@
 <style>
     .tut{
-        border: 1px solid #dcdcdc;
-        margin: 20px 0px;
+        margin: 15px 15px 15px 0px
     }
 </style>
 <div ng-include src="'static/app/views/navbar.html'"></div>
@@ -60,7 +59,7 @@
 			</br>
             <div class="row-fluid">
                 <div class="span3 tut" ng-repeat="chapterArray in chapterArray">
-                    <a class="btn btn-sm" target="_blank" href="static/[[ chapterArray.chapter_path ]]"
+                    <a class="btn btn-sm btn-block btn-success" target="_blank" href="static/[[ chapterArray.chapter_path ]]"
                        style="padding:5px 10px;">
                         [[ chapterArray.chapter_name ]]
                     </a>
