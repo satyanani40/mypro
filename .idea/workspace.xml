@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/assessments.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/assessments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/tutorials.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/tutorials.html" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +52,8 @@
       <file leaf-file-name="assessments.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/assessments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13194445" vertical-offset="0" max-vertical-offset="1881">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.1099537" vertical-offset="0" max-vertical-offset="1900">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -947,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/assessments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13194445" vertical-offset="0" max-vertical-offset="1881">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.1099537" vertical-offset="0" max-vertical-offset="1900">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
