@@ -69,8 +69,8 @@
       <file leaf-file-name="create_chapter.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29035875" vertical-offset="786" max-vertical-offset="2907">
-              <caret line="55" column="106" selection-start-line="55" selection-start-column="106" selection-end-line="55" selection-end-column="106" />
+            <state vertical-scroll-proportion="0.4899103" vertical-offset="1482" max-vertical-offset="2907">
+              <caret line="101" column="60" selection-start-line="101" selection-start-column="60" selection-end-line="101" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -1008,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29035875" vertical-offset="786" max-vertical-offset="2907">
-          <caret line="55" column="106" selection-start-line="55" selection-start-column="106" selection-end-line="55" selection-end-column="106" />
+        <state vertical-scroll-proportion="0.4899103" vertical-offset="1482" max-vertical-offset="2907">
+          <caret line="101" column="60" selection-start-line="101" selection-start-column="60" selection-end-line="101" selection-end-column="60" />
           <folding />
         </state>
       </provider>
