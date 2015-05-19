@@ -36,6 +36,12 @@
               </a>
           </li>
           <li>
+              <a href="#/odl">
+                  <i class="icon-chevron-right"></i>
+                   Online Distance Learning
+              </a>
+          </li>
+          <li>
               <a href="#/about">
                   <i class="icon-chevron-right"></i>
                   About us
@@ -86,13 +92,17 @@
             </label>
             <input type="text" placeholder="enter exan pass mark" ng-model="exam_pass_mark">
             <br />
-            <div class="fileUpload btn btn-primary" style="width:22%;">
-                <span>Upload</span>
+            <div class="fileUpload btn btn-default" style="width:22%;">
+                <span>Browse File</span>
                 <input type="file" file="file"  required class="upload" />
             </div>
             <br />
 
-            <button ng-click="create_examination()">upload me</button>
+            <button class="btn btn-sm btn-primary" ng-click="create_examination()">
+                <strong>
+                    upload me
+                </strong>
+            </button>
 
             <hr />
             [[ error ]]
