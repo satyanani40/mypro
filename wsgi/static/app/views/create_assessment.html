@@ -86,7 +86,10 @@
             </label>
             <input type="text" placeholder="enter exan pass mark" ng-model="exam_pass_mark">
             <br />
-            <input type="file" file="file" required class="upload" />
+            <div class="fileUpload btn btn-primary" style="width:25%;">
+                <span>Upload</span>
+                <input type="file" file="file"  required class="upload" />
+            </div>
             <br />
 
             <button ng-click="create_examination()">upload me</button>
