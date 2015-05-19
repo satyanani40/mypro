@@ -229,6 +229,8 @@ angular.module('sampleAppApp')
         $window.sessionStorage.removeItem('total');
         $window.sessionStorage.removeItem('correct');
         $window.sessionStorage.clear();
+        $rootScope.currentUser = null;
+        $rootScope.isAuthenticated = false;
 
         setInterval(function () {
             $window.location.replace("http://python-dlpstaffs.rhcloud.com/#/");
