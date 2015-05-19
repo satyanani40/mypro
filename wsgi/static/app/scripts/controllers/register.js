@@ -22,7 +22,11 @@ angular.module('sampleAppApp')
             },
         })
        .success(function (out) {
-           console.log('--------->register', out);
+           if(out.status == 200){
+                $scope.error = out.error;
+           }else{
+                $scope.error = out.error;
+           }
         })
         .error(function (data, status) {
 

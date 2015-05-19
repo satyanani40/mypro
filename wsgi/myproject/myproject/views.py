@@ -187,7 +187,7 @@ class DoRegister(View):
 
             dataa = Examdetails.objects.all()
             if dataa is None:
-                return HttpResponse({'status':'first create exam'})
+                return HttpResponse(json.dumps({'status':400, 'error': 'create at least one exam first'}))
             else:
                 access_exam = ''
                 for temp in dataa:
@@ -209,11 +209,12 @@ class DoRegister(View):
                     #msg.attach_alternative(html_content, "text/html")
                     msg.send()
                     status = 'a details  has been sent to your '+user_email+' please click on the link'
+                    return HttpResponse(json.dumps({'status':200, 'error': 'user successfully created'}))
                 else:
                     status = 'email or username alredy exits'
-                return HttpResponse(json.dumps(status))
+                return HttpResponse(json.dumps({'status':400, 'error': 'email alredy exits'}))
         except Exception as e:
-            return HttpResponse(e)
+            return HttpResponse(json.dumps({'status':400, 'error': 'failed to create user please logout and login'}))
 
 class Feedback(View):
     def get(self, request):
