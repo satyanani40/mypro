@@ -1,3 +1,9 @@
+<style>
+    .tut{
+        border: 1px solid #dcdcdc;
+        margin: 20px 0px;
+    }
+</style>
 <div ng-include src="'static/app/views/navbar.html'"></div>
 <div class="container">
     <!-- Docs nav
@@ -53,8 +59,8 @@
             <h1>Tutorials</h1>
 			</br>
             <div class="row-fluid">
-                <div class="span3" ng-repeat="chapterArray in chapterArray">
-                    <a target="_blank" href="static/[[ chapterArray.chapter_path ]]"
+                <div class="span3 tut" ng-repeat="chapterArray in chapterArray">
+                    <a class="btn btn-sm" target="_blank" href="static/[[ chapterArray.chapter_path ]]"
                        style="padding:5px 10px;">
                         [[ chapterArray.chapter_name ]]
                     </a>

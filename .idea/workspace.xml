@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/tutorials.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/tutorials.html" />
     </list>
     <ignored path="python.iws" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="tutorials.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/tutorials.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5416192" vertical-offset="570" max-vertical-offset="1463">
-              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0649943" vertical-offset="0" max-vertical-offset="1577">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -934,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/tutorials.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5416192" vertical-offset="570" max-vertical-offset="1463">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0649943" vertical-offset="0" max-vertical-offset="1577">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding />
         </state>
       </provider>
