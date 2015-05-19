@@ -53,7 +53,7 @@ angular.module('sampleAppApp')
     }
 }]).controller('CreateChapterCtrl', function ($scope, $http, $routeParams) {
 
-         if(($scope.chapter_name = 'undefined' || $scope.file = 'undefined' || $routeParams.categeory = 'undefined')){
+         if(($scope.chapter_name == 'undefined' || $scope.file == 'undefined' || $routeParams.categeory == 'undefined')){
             alert('please enter all fields');
             return;
         }
@@ -100,7 +100,7 @@ angular.module('sampleAppApp')
   })
   .controller('createAssessmentCtrl', function ($scope, $http, $routeParams) {
         if($scope.exam_name == 'undefined' || $scope.file = 'undefined'||
-        $scope.exam_time = 'undefined' || $scope.exam_pass_mark= 'undefined' || $routeParams.categeory = 'undefined')){
+        $scope.exam_time == 'undefined' || $scope.exam_pass_mark == 'undefined' || $routeParams.categeory == 'undefined')){
             alert('please enter all fields');
             return;
         }
