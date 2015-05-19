@@ -229,11 +229,14 @@ angular.module('sampleAppApp')
         $window.sessionStorage.removeItem('total');
         $window.sessionStorage.removeItem('correct');
         $window.sessionStorage.clear();
-        $rootScope.currentUser = null;
+        $rootScope.currentUser = {};
         $rootScope.isAuthenticated = false;
+        console.log($rootScope.currentUser.access_exams)
+
 
         setInterval(function () {
-            $window.location.replace("http://python-dlpstaffs.rhcloud.com/#/");
+            $location.path('/');
+            //$window.location.replace("http://python-dlpstaffs.rhcloud.com/#/");
         }, 4000);
   })
   .service('check_exam', function($window) {
