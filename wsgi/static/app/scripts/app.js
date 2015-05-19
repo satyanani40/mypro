@@ -26,9 +26,13 @@ angular
         templateUrl: 'static/app/views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
+      .when('/odl', {
         templateUrl: 'static/app/views/about.html',
         controller: 'AboutCtrl'
+      })
+      .when('/about_us', {
+        templateUrl: 'static/app/views/about2.html',
+
       })
       .when('/about/topic', {
         templateUrl: 'static/app/views/topic.html',
