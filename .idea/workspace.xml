@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000077c6-13ea-464d-a27f-3d3122670125" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" afterPath="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js" afterPath="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi/myproject/myproject/views.py" afterPath="$PROJECT_DIR$/wsgi/myproject/myproject/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +63,38 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="1938">
+            <state vertical-scroll-proportion="0.0" vertical-offset="919" max-vertical-offset="1938">
               <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_chapter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1698" max-vertical-offset="2717">
+              <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_assessment.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65336376" vertical-offset="624" max-vertical-offset="1501">
+              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-chapter.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.392857" vertical-offset="684" max-vertical-offset="1615">
+              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -86,24 +120,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66091955" vertical-offset="2066" max-vertical-offset="6004">
-              <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+            <state vertical-scroll-proportion="11.4" vertical-offset="3591" max-vertical-offset="6004">
+              <caret line="168" column="56" selection-start-line="168" selection-start-column="56" selection-end-line="168" selection-end-column="56" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="931">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="42" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -120,8 +144,6 @@
         <option value="$PROJECT_DIR$/wsgi/myproject/myproject/static/app/views/online.html" />
         <option value="$PROJECT_DIR$/wsgi/myproject/myproject/static/app/views/navbar.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/views/navbar.html" />
-        <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js" />
-        <option value="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" />
         <option value="$PROJECT_DIR$/wsgi/static/app/views/online.html" />
         <option value="$PROJECT_DIR$/wsgi/.htaccess" />
         <option value="$PROJECT_DIR$/wsgi/wsgi.py" />
@@ -152,6 +174,9 @@
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/login.js" />
         <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/about.js" />
         <option value="$PROJECT_DIR$/wsgi/myproject/myproject/views.py" />
+        <option value="$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html" />
+        <option value="$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html" />
+        <option value="$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js" />
       </list>
     </option>
   </component>
@@ -545,13 +570,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1539">
@@ -894,14 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/feedback.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.142857" vertical-offset="491" max-vertical-offset="1368">
@@ -928,11 +938,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi/myproject/myproject/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66091955" vertical-offset="2066" max-vertical-offset="6004">
-          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+        <state vertical-scroll-proportion="11.4" vertical-offset="3591" max-vertical-offset="6004">
+          <caret line="168" column="56" selection-start-line="168" selection-start-column="56" selection-end-line="168" selection-end-column="56" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create-chapter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.392857" vertical-offset="684" max-vertical-offset="1615">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/scripts/controllers/create_chapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1698" max-vertical-offset="2717">
+          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi/static/app/views/create_assessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65336376" vertical-offset="624" max-vertical-offset="1501">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

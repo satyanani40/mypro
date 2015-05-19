@@ -166,11 +166,11 @@ class Chapters(View):
             data.chapter_path = store_path
             data.save()
             html = "<html><body>SAVED</body></html>"
-            return HttpResponse(html)
+            return HttpResponse(json.dumps({'status':200}))
         except Exception as e:
             print e
             html = "<html><body>NOT SAVED</body></html>"
-            return HttpResponse(html)
+            return HttpResponse(json.dumps({'status':400}))
 
 class DoRegister(View):
     def get(self, request):

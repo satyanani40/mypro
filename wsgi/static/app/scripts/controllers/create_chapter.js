@@ -80,6 +80,12 @@ angular.module('sampleAppApp')
                 }
             })
            .success(function (out) {
+                if(out.status == 200){
+                    $scope.error = 'successfully created'
+
+                }else{
+                    $scope.error = 'failed to created a chapter please refresh and try again'
+                }
                console.log(out);
             })
             .error(function (data, status) {
@@ -117,6 +123,12 @@ angular.module('sampleAppApp')
                     }
               })
            .success(function (out) {
+                if(out.status == 200){
+                    $scope.error = 'successfully created'
+
+                }else{
+                    $scope.error = 'failed to create a chapter'
+                }
                console.log(out);
             })
             .error(function (data, status) {
