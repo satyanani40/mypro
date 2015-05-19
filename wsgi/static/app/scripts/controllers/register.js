@@ -8,7 +8,12 @@
  * Controller of the sampleAppApp
  */
 angular.module('sampleAppApp')
-  .controller('RegisterCtrl', function ($scope, $http) {
+  .controller('RegisterCtrl', function ($scope, $http, $rootScope, $location) {
+        if($rootScope.currentUser.is_superuser == false){
+            alert('please login as super user to create account');
+            $location.path("/");
+            return;
+        }
         $scope.register = function(){
         $http({
             method: 'POST',
