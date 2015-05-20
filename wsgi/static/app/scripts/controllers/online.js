@@ -213,7 +213,7 @@ angular.module('sampleAppApp')
     }
   
   })
-  .controller('submitExam', function ($scope, $window, $routeParams, $rootScope, $http) {
+  .controller('submitExam', function ($scope, $window, $routeParams, $rootScope, $http, $location) {
         $scope.total_answers = $window.sessionStorage.getItem('total');
         console.log("total--------", $scope.total_answers);
         $scope.correct_answers = $window.sessionStorage.getItem('correct')
